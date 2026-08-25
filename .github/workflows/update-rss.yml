@@ -20,10 +20,16 @@ jobs:
           node --input-type=module <<'NODE'
           import fs from 'node:fs';
 
+          // Les horaires du calendrier Team France Basket sont en heure française.
+          process.env.TZ = 'Europe/Paris';
+
           const sourceUrl = 'https://www.teamfrancebasket.com/schedule/0';
           const resultsOutput = 'resultats-bleus-rss.xml';
           const broadcastsOutput = 'prochains-matchs-bleus.xml';
+          const broadcastsStateOutput = 'bleus-diffusion-state.json';
           const broadcastFeedUrl = 'https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/prochains-matchs-bleus.xml';
+          const reminderMinutesBefore = 120;
+          const reminderWindowMinutes = 30;
 
           const decode = value => value
             .replace(/&#0?39;|&apos;/gi, "'").replace(/&quot;/gi, '"')
@@ -32,6 +38,11 @@ jobs:
           const clean = value => decode(value.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim());
           const escapeXml = value => String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
           const toId = value => String(value).toLowerCase().replace(/[^a-z0-9]+/gi, '-').replace(/(^-|-$)/g, '');
+          const validDate = value => value instanceof Date && !Number.isNaN(value.getTime());
+          const fromIso = value => {
+            const date = new Date(value);
+            return validDate(date) ? date : null;
+          };
           const frenchDate = (dateText, timeText) => {
             const date = dateText.match(/^(\d{2})\/(\d{2})\/(\d{4})$/);
             const time = timeText?.match(/^(\d{1,2})h(\d{2})$/i);
@@ -58,6 +69,7 @@ jobs:
             return [{ id: scoreBlock?.[1] || toId(`${dateText}-${teams[0]}-${teams[1]}`), dateText, teams, score, competition, startAt, channel }];
           });
 
+          // Le flux de résultats existant reste indépendant et inchangé dans son contenu.
           const finished = matches.flatMap(match => {
             const scoreParts = match.score.match(/^(\d+)\s*-\s*(\d+)$/);
             const dateParts = match.dateText.match(/^(\d{2})\/(\d{2})\/(\d{4})$/);
@@ -73,35 +85,54 @@ jobs:
           }).join('\n');
           fs.writeFileSync(resultsOutput, `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0">\n  <channel>\n    <title>Équipe de France Basket senior — Résultats finaux</title>\n    <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/resultats-bleus-rss.xml</link>\n    <description>Les résultats finaux des matchs de l’équipe de France masculine senior de basket.</description>\n    <language>fr</language>\n    <lastBuildDate>${finished[0].date.toUTCString()}</lastBuildDate>\n    <generator>France Basket RSS sur GitHub</generator>${resultItems}\n  </channel>\n</rss>\n`, 'utf8');
 
+          const previousRaw = fs.existsSync(broadcastsStateOutput) ? JSON.parse(fs.readFileSync(broadcastsStateOutput, 'utf8')) : {};
+          const previousMatches = previousRaw && typeof previousRaw.matches === 'object' && previousRaw.matches ? previousRaw.matches : {};
           const now = new Date();
+          const nextMatches = {};
           const broadcastItems = [];
-          for (const match of matches.filter(match => match.score === 'VS' && match.startAt && match.startAt > now).sort((a, b) => a.startAt - b.startAt)) {
-            const readableTime = match.startAt.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
-            const details = `${match.teams[0]} – ${match.teams[1]}, le ${match.dateText} à ${readableTime}, ${match.channel}.`;
-            const announcementDate = new Date(match.startAt.getTime() - 7 * 24 * 60 * 60 * 1000);
-            const announcementGuid = `bleus-match-annonce-${match.id}-${toId(match.channel)}`;
-            broadcastItems.push({ date: announcementDate, xml: `\n    <item>\n      <title>${escapeXml(`Match annoncé — ${match.teams[0]} – ${match.teams[1]}`)}</title>\n      <link>${sourceUrl}</link>\n      <guid isPermaLink="false">${announcementGuid}</guid>\n      <pubDate>${announcementDate.toUTCString()}</pubDate>\n      <description>${escapeXml(`${details} Compétition : ${match.competition || 'à confirmer'}`)}</description>\n      <source url="https://www.teamfrancebasket.com/">Team France Basket</source>\n    </item>` });
+          const reminderMin = (reminderMinutesBefore - reminderWindowMinutes) * 60 * 1000;
+          const reminderMax = (reminderMinutesBefore + reminderWindowMinutes) * 60 * 1000;
 
+          for (const match of matches.filter(match => match.score === 'VS' && match.startAt && match.startAt > now).sort((a, b) => a.startAt - b.startAt)) {
+            const previousMatch = previousMatches[String(match.id)] || {};
+            const announcedAt = fromIso(previousMatch.announcedAt) || now;
             const untilMatch = match.startAt.getTime() - now.getTime();
-            if (untilMatch >= 90 * 60 * 1000 && untilMatch <= 150 * 60 * 1000) {
-              const reminderDate = new Date(match.startAt.getTime() - 2 * 60 * 60 * 1000);
-              broadcastItems.push({ date: reminderDate, xml: `\n    <item>\n      <title>${escapeXml('Rappel — Les Bleus jouent dans environ 2 heures')}</title>\n      <link>${sourceUrl}</link>\n      <guid isPermaLink="false">bleus-match-rappel-2h-${match.id}</guid>\n      <pubDate>${reminderDate.toUTCString()}</pubDate>\n      <description>${escapeXml(`${details} Préparez votre diffusion.`)}</description>\n      <source url="https://www.teamfrancebasket.com/">Team France Basket</source>\n    </item>` });
+            const mustCreateReminder = !fromIso(previousMatch.remindedAt) && untilMatch >= reminderMin && untilMatch <= reminderMax;
+            const remindedAt = fromIso(previousMatch.remindedAt) || (mustCreateReminder ? now : null);
+            nextMatches[String(match.id)] = { announcedAt: announcedAt.toISOString(), ...(remindedAt ? { remindedAt: remindedAt.toISOString() } : {}) };
+
+            const readableTime = match.startAt.toLocaleTimeString('fr-FR', { timeZone: 'Europe/Paris', hour: '2-digit', minute: '2-digit' });
+            const details = `${match.teams[0]} – ${match.teams[1]}, le ${match.dateText} à ${readableTime}, ${match.channel}.`;
+            broadcastItems.push({ date: announcedAt, xml: `\n    <item>\n      <title>${escapeXml(`Match annoncé — ${match.teams[0]} – ${match.teams[1]}`)}</title>\n      <link>${sourceUrl}</link>\n      <guid isPermaLink="false">bleus-match-annonce-${match.id}</guid>\n      <pubDate>${announcedAt.toUTCString()}</pubDate>\n      <description>${escapeXml(`${details} Compétition : ${match.competition || 'à confirmer'}`)}</description>\n      <source url="https://www.teamfrancebasket.com/">Team France Basket</source>\n    </item>` });
+
+            if (remindedAt) {
+              broadcastItems.push({ date: remindedAt, xml: `\n    <item>\n      <title>${escapeXml('Rappel — Les Bleus jouent dans environ 2 heures')}</title>\n      <link>${sourceUrl}</link>\n      <guid isPermaLink="false">bleus-match-rappel-2h-${match.id}</guid>\n      <pubDate>${remindedAt.toUTCString()}</pubDate>\n      <description>${escapeXml(`${details} Préparez votre diffusion.`)}</description>\n      <source url="https://www.teamfrancebasket.com/">Team France Basket</source>\n    </item>` });
             }
           }
-          broadcastItems.sort((a, b) => b.date - a.date);
-          const lastBroadcastDate = broadcastItems[0]?.date || now;
-          fs.writeFileSync(broadcastsOutput, `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0">\n  <channel>\n    <title>Les Bleus — Prochains matchs et diffusions</title>\n    <link>${broadcastFeedUrl}</link>\n    <description>Matchs annoncés et rappels deux heures avant le coup d’envoi pour l’équipe de France masculine senior de basket.</description>\n    <language>fr</language>\n    <lastBuildDate>${lastBroadcastDate.toUTCString()}</lastBuildDate>\n    <generator>France Basket RSS sur GitHub</generator>${broadcastItems.map(item => item.xml).join('\n')}\n  </channel>\n</rss>\n`, 'utf8');
-          console.log(`${finished.length} résultats et ${broadcastItems.length} annonces de diffusion générés.`);
+
+          const orderedMatches = Object.fromEntries(Object.entries(nextMatches).sort(([left], [right]) => left.localeCompare(right)));
+          const previousComparable = Object.fromEntries(Object.entries(previousMatches)
+            .filter(([, value]) => value && fromIso(value.announcedAt))
+            .map(([id, value]) => [id, { announcedAt: fromIso(value.announcedAt).toISOString(), ...(fromIso(value.remindedAt) ? { remindedAt: fromIso(value.remindedAt).toISOString() } : {}) }])
+            .sort(([left], [right]) => left.localeCompare(right)));
+          const eventsChanged = JSON.stringify(orderedMatches) !== JSON.stringify(previousComparable);
+          const previousBuildAt = fromIso(previousRaw?.lastBuildAt);
+          const lastBuildAt = eventsChanged || !previousBuildAt ? now : previousBuildAt;
+          const state = { version: 1, lastBuildAt: lastBuildAt.toISOString(), matches: orderedMatches };
+          broadcastItems.sort((a, b) => b.date - a.date || b.xml.localeCompare(a.xml));
+          fs.writeFileSync(broadcastsOutput, `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0">\n  <channel>\n    <title>Les Bleus — Prochains matchs et diffusions</title>\n    <link>${broadcastFeedUrl}</link>\n    <description>Matchs annoncés et rappels environ deux heures avant le coup d’envoi pour l’équipe de France masculine senior de basket.</description>\n    <language>fr</language>\n    <lastBuildDate>${lastBuildAt.toUTCString()}</lastBuildDate>\n    <generator>France Basket RSS sur GitHub</generator>${broadcastItems.map(item => item.xml).join('\n')}\n  </channel>\n</rss>\n`, 'utf8');
+          fs.writeFileSync(broadcastsStateOutput, `${JSON.stringify(state, null, 2)}\n`, 'utf8');
+          console.log(`${finished.length} résultats et ${broadcastItems.length} éléments de diffusion générés.`);
           NODE
 
       - name: Enregistrer les nouveaux éléments s’il y en a
         run: |
-          if git diff --quiet -- resultats-bleus-rss.xml prochains-matchs-bleus.xml; then
+          if git diff --quiet -- resultats-bleus-rss.xml prochains-matchs-bleus.xml bleus-diffusion-state.json; then
             echo "Aucune mise à jour à enregistrer."
             exit 0
           fi
           git config user.name "France Basket RSS"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add resultats-bleus-rss.xml prochains-matchs-bleus.xml
+          git add resultats-bleus-rss.xml prochains-matchs-bleus.xml bleus-diffusion-state.json
           git commit -m "Mise à jour des flux des Bleus"
           git push
