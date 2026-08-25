@@ -1,0 +1,159 @@
+name: Mettre à jour le flux RSS UBB Rugby
+
+on:
+  schedule:
+    - cron: "2,12,22,32,42,52 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-ubb-rss:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Générer le flux UBB depuis la LNR et l’EPCR
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+
+          process.env.TZ = 'Europe/Paris';
+          const TOP14_URL = 'https://top14.lnr.fr/club/bordeaux-begles/calendrier-resultats';
+          const EPCR_URL = 'https://www.epcrugby.com/fr/champions-cup/clubs/union-bordeaux-begles/calendrier-resultats';
+          const OUTPUT = 'ubb-rugby-rss.xml';
+          const STATE = 'ubb-rugby-state.json';
+          const FEED_URL = 'https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/ubb-rugby-rss.xml';
+          const UBB = /bordeaux[-– ]b[eè]gles|union bordeaux b[eè]gles/i;
+          const months = { janvier: 0, 'février': 1, mars: 2, avril: 3, mai: 4, juin: 5, juillet: 6, 'août': 7, septembre: 8, octobre: 9, novembre: 10, 'décembre': 11 };
+          const clean = value => String(value ?? '').replace(/<[^>]*>/g, ' ').replace(/&amp;/g, '&').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim();
+          const xml = value => String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
+          const dateOf = value => { const date = new Date(value); return Number.isNaN(date.getTime()) ? null : date; };
+
+          async function fetchOfficial(url) {
+            let lastError;
+            for (let attempt = 1; attempt <= 3; attempt += 1) {
+              try {
+                const response = await fetch(url, { headers: { 'User-Agent': 'UBBRugbyRSS/1.0 (+https://github.com/NoannAlonn/France-basket-RSS)', Accept: 'text/html' }, signal: AbortSignal.timeout(25000) });
+                if (response.ok) return await response.text();
+                lastError = new Error(`${url} répond HTTP ${response.status}.`);
+              } catch (error) { lastError = error; }
+              if (attempt < 3) await new Promise(resolve => setTimeout(resolve, attempt * 1500));
+            }
+            throw lastError;
+          }
+
+          function lnrDate(label, time) {
+            const day = clean(label).toLowerCase().match(/(?:lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche)\s+(\d{1,2})\s+([a-zéû]+)/i);
+            const clock = clean(time).match(/^(\d{1,2})h(\d{2})$/i);
+            if (!day || months[day[2]] === undefined) return null;
+            let year = new Date().getFullYear();
+            const provisional = new Date(year, months[day[2]], +day[1], clock ? +clock[1] : 12, clock ? +clock[2] : 0);
+            if (provisional < new Date(Date.now() - 200 * 24 * 60 * 60 * 1000)) year += 1;
+            return new Date(year, months[day[2]], +day[1], clock ? +clock[1] : 12, clock ? +clock[2] : 0);
+          }
+
+          function top14Matches(html) {
+            const links = [...html.matchAll(/href='(https:\/\/top14\.lnr\.fr\/feuille-de-match\/[^']*\/(\d+)-[^']+)'/g)];
+            return links.flatMap(link => {
+              const before = html.lastIndexOf('<div class="match-calendar-line', link.index);
+              const after = html.indexOf('<div class="match-calendar-line', link.index + 1);
+              const card = html.slice(before, after === -1 ? link.index + 2000 : after);
+              const teams = [...card.matchAll(/class="club-line__name[^>]*">\s*([\s\S]*?)<\/a>/g)].map(match => clean(match[1]));
+              const label = clean(card.match(/day-calendar-line__date">\s*([^<]+)/i)?.[1]);
+              const time = clean(card.match(/match-line__time">\s*([^<]+)/i)?.[1]);
+              const startAt = lnrDate(label, time);
+              const channels = [...card.matchAll(/<img[^>]+alt="([^"]+)"[^>]*class="match-line__broadcaster"/gi)].map(match => clean(match[1]));
+              if (teams.length < 2 || !startAt || !UBB.test(teams.join(' '))) return [];
+              return [{ id: `top14-${link[2]}`, competition: 'Top 14', home: teams[0], away: teams[1], startAt, timeKnown: /^\d{1,2}h\d{2}$/i.test(time), channel: channels.join(' / ') || 'Diffusion à confirmer', link: link[1], source: 'LNR' }];
+            }).filter((match, index, all) => all.findIndex(candidate => candidate.id === match.id) === index);
+          }
+
+          function championsMatches(html) {
+            const channels = ['France TV', 'beIN SPORTS', 'Premier Sports', 'epcrugby.tv'];
+            return [...html.matchAll(/<li><time[^>]+datetime="([^"]+)"[^>]*>[\s\S]*?<\/li>/gi)].flatMap(card => {
+              const link = card[0].match(/href="([^\"]*\/champions-cup\/matchs\/(\d+)\/actualite)"/i);
+              const names = [...card[0].matchAll(/<img[^>]+alt="([^"]+)"[^>]*>/gi)].map(match => clean(match[1]));
+              const teams = names.filter((team, index) => names.indexOf(team) === index).slice(0, 2);
+              const startAt = dateOf(card[1]);
+              if (!link || teams.length < 2 || !startAt || !UBB.test(teams.join(' '))) return [];
+              return [{ id: `champions-${link[2]}`, competition: 'Champions Cup', home: teams[0], away: teams[1], startAt, timeKnown: true, channel: channels.filter(channel => card[0].includes(channel)).join(' / ') || 'Diffusion à confirmer', link: new URL(link[1], EPCR_URL).href, source: 'EPCR' }];
+            });
+          }
+
+          function lnrFinal(html) {
+            const text = clean(html); const point = text.indexOf('Match terminé');
+            if (point === -1) return null;
+            const scores = [...text.slice(point, point + 250).matchAll(/\b(\d{1,3})\s*-\s*(\d{1,3})\b/g)];
+            const score = scores.at(-1); return score ? { homeScore: score[1], awayScore: score[2] } : null;
+          }
+
+          function epcrFinal(html) {
+            const point = html.indexOf('Match terminé'); if (point === -1) return null;
+            const zone = html.slice(point, point + 22000);
+            const home = zone.match(/class="col-start-11[^>]*>([\s\S]*?)class="flex col-start-11/i)?.[1] ?? '';
+            const away = zone.match(/class="flex col-start-11[^>]*>([\s\S]*?)<a href="\/champions-cup\/clubs\//i)?.[1] ?? '';
+            const digits = value => [...value.matchAll(/font-secondary[^>]*>(\d)<\/div>/g)].map(match => match[1]).join('');
+            const homeScore = digits(home), awayScore = digits(away);
+            return homeScore && awayScore ? { homeScore, awayScore } : null;
+          }
+
+          function makeItem({ title, description, guid, publishedAt, link, source }) {
+            const sourceUrl = source === 'LNR' ? TOP14_URL : EPCR_URL;
+            return `\n    <item>\n      <title>${xml(title)}</title>\n      <link>${xml(link)}</link>\n      <guid isPermaLink="false">${xml(guid)}</guid>\n      <pubDate>${new Date(publishedAt).toUTCString()}</pubDate>\n      <description>${xml(description)}</description>\n      <source url="${sourceUrl}">${source}</source>\n    </item>`;
+          }
+
+          const [lnrHtml, epcrHtml] = await Promise.all([fetchOfficial(TOP14_URL), fetchOfficial(EPCR_URL)]);
+          const matches = [...top14Matches(lnrHtml), ...championsMatches(epcrHtml)];
+          const previous = fs.existsSync(STATE) ? JSON.parse(fs.readFileSync(STATE, 'utf8')) : {};
+          const now = new Date();
+          for (const match of matches.filter(match => match.startAt <= now && !previous.results?.[match.id])) {
+            try {
+              const detail = await fetchOfficial(match.link);
+              match.final = match.source === 'LNR' ? lnrFinal(detail) : epcrFinal(detail);
+            } catch { /* La source sera réessayée au prochain passage. */ }
+          }
+
+          const state = { version: 1, lastBuildAt: previous.lastBuildAt ?? null, matches: { ...(previous.matches ?? {}) }, results: { ...(previous.results ?? {}) } };
+          const entries = [];
+          for (const match of matches) {
+            const prior = state.matches[match.id] ?? {};
+            const event = { ...prior, competition: match.competition, home: match.home, away: match.away, startAt: match.startAt.toISOString(), channel: match.channel, link: match.link, source: match.source };
+            if (match.startAt > now && match.timeKnown && !event.announcedAt) event.announcedAt = now.toISOString();
+            const beforeMatch = match.startAt - now;
+            if (match.startAt > now && match.timeKnown && !event.remindedAt && beforeMatch >= 90 * 60 * 1000 && beforeMatch <= 150 * 60 * 1000) event.remindedAt = now.toISOString();
+            state.matches[match.id] = event;
+            if (match.startAt > now && match.timeKnown && event.announcedAt) {
+              const moment = match.startAt.toLocaleString('fr-FR', { timeZone: 'Europe/Paris', weekday: 'long', day: '2-digit', month: 'long', year: 'numeric', hour: '2-digit', minute: '2-digit' }).replace(',', ' à');
+              const details = `${event.home} – ${event.away}, ${moment}, ${event.channel}. Compétition : ${event.competition}.`;
+              entries.push({ date: event.announcedAt, xml: makeItem({ title: `Match annoncé — UBB : ${event.home} – ${event.away}`, description: details, guid: `ubb-annonce-${match.id}`, publishedAt: event.announcedAt, link: event.link, source: event.source }) });
+              if (event.remindedAt) entries.push({ date: event.remindedAt, xml: makeItem({ title: 'Rappel — L’UBB joue dans environ 2 heures', description: `${details} Préparez votre diffusion.`, guid: `ubb-rappel-2h-${match.id}`, publishedAt: event.remindedAt, link: event.link, source: event.source }) });
+            }
+            if (match.final && !state.results[match.id]) state.results[match.id] = { ...event, ...match.final, publishedAt: now.toISOString() };
+          }
+
+          Object.entries(state.results).sort(([, left], [, right]) => new Date(right.publishedAt) - new Date(left.publishedAt)).slice(0, 30).forEach(([id, result]) => entries.push({ date: result.publishedAt, xml: makeItem({ title: `Résultat final — UBB : ${result.home} ${result.homeScore}–${result.awayScore} ${result.away}`, description: `Résultat final : ${result.home} ${result.homeScore}–${result.awayScore} ${result.away}. Compétition : ${result.competition}.`, guid: `ubb-resultat-${id}`, publishedAt: result.publishedAt, link: result.link, source: result.source }) }));
+          entries.sort((left, right) => new Date(right.date) - new Date(left.date) || right.xml.localeCompare(left.xml));
+          const before = JSON.stringify({ matches: previous.matches ?? {}, results: previous.results ?? {} });
+          const after = JSON.stringify({ matches: state.matches, results: state.results });
+          if (before !== after) state.lastBuildAt = now.toISOString();
+          const rss = `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0">\n  <channel>\n    <title>UBB Rugby — Top 14 & Champions Cup</title>\n    <link>${FEED_URL}</link>\n    <description>Résultats finaux, annonces de match et rappels deux heures avant pour l’Union Bordeaux Bègles masculine senior.</description>\n    <language>fr</language>\n    <lastBuildDate>${new Date(state.lastBuildAt ?? now).toUTCString()}</lastBuildDate>\n    <generator>UBB RSS sur GitHub</generator>${entries.map(entry => entry.xml).join('\n')}\n  </channel>\n</rss>\n`;
+          fs.writeFileSync(OUTPUT, rss, 'utf8');
+          fs.writeFileSync(STATE, `${JSON.stringify(state, null, 2)}\n`, 'utf8');
+          console.log(`${matches.length} matchs UBB analysés, ${entries.length} éléments RSS générés.`);
+          NODE
+
+      - name: Enregistrer le flux UBB si nécessaire
+        run: |
+          if git diff --quiet -- ubb-rugby-rss.xml ubb-rugby-state.json; then
+            echo "Aucune mise à jour UBB à enregistrer."
+            exit 0
+          fi
+          git config user.name "UBB Rugby RSS"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ubb-rugby-rss.xml ubb-rugby-state.json
+          git commit -m "Mise à jour du flux UBB Rugby"
+          git pull --rebase origin main
+          git push
