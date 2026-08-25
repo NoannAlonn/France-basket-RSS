@@ -147,7 +147,7 @@ jobs:
 
       - name: Enregistrer le flux UBB si nécessaire
         run: |
-          if git diff --quiet -- ubb-rugby-rss.xml ubb-rugby-state.json; then
+          if [ -z "$(git status --porcelain -- ubb-rugby-rss.xml ubb-rugby-state.json)" ]; then
             echo "Aucune mise à jour UBB à enregistrer."
             exit 0
           fi
