@@ -1,0 +1,286 @@
+{
+  "version": 1,
+  "lastBuildAt": "2026-08-25T19:56:08.134Z",
+  "matches": {
+    "top14-11820": {
+      "competition": "Top 14",
+      "home": "Union Bordeaux-Bègles",
+      "away": "Racing 92",
+      "startAt": "2026-09-05T19:15:00.000Z",
+      "channel": "Canal +",
+      "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j1/11820-bordeaux-begles-racing-92",
+      "source": "LNR",
+      "announcedAt": "2026-08-25T19:56:08.134Z"
+    },
+    "top14-11832": {
+      "competition": "Top 14",
+      "home": "Stade Toulousain",
+      "away": "Union Bordeaux-Bègles",
+      "startAt": "2026-09-13T19:05:00.000Z",
+      "channel": "Canal +",
+      "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j2/11832-toulouse-bordeaux-begles",
+      "source": "LNR",
+      "announcedAt": "2026-08-25T19:56:08.134Z"
+    },
+    "top14-11834": {
+      "competition": "Top 14",
+      "home": "Union Bordeaux-Bègles",
+      "away": "Stade Français Paris",
+      "startAt": "2026-09-20T19:05:00.000Z",
+      "channel": "Canal +",
+      "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j3/11834-bordeaux-begles-paris",
+      "source": "LNR",
+      "announcedAt": "2026-08-25T19:56:08.134Z"
+    },
+    "top14-11840": {
+      "competition": "Top 14",
+      "home": "USA Perpignan",
+      "away": "Union Bordeaux-Bègles",
+      "startAt": "2026-09-26T12:30:00.000Z",
+      "channel": "Canal + Sport",
+      "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j4/11840-perpignan-bordeaux-begles",
+      "source": "LNR",
+      "announcedAt": "2026-08-25T19:56:08.134Z"
+    },
+    "top14-11848": {
+      "competition": "Top 14",
+      "home": "Union Bordeaux-Bègles",
+      "away": "LOU Rugby",
+      "startAt": "2026-10-03T12:30:00.000Z",
+      "channel": "Canal +",
+      "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j5/11848-bordeaux-begles-lyon",
+      "source": "LNR",
+      "announcedAt": "2026-08-25T19:56:08.134Z"
+    },
+    "top14-11855": {
+      "competition": "Top 14",
+      "home": "ASM Clermont",
+      "away": "Union Bordeaux-Bègles",
+      "startAt": "2026-10-10T10:00:00.000Z",
+      "channel": "Diffusion à confirmer",
+      "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j6/11855-clermont-bordeaux-begles",
+      "source": "LNR"
+    },
+    "top14-11864": {
+      "competition": "Top 14",
+      "home": "Stade Rochelais",
+      "away": "Union Bordeaux-Bègles",
+      "startAt": "2026-10-24T10:00:00.000Z",
+      "channel": "Diffusion à confirmer",
+      "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j7/11864-la-rochelle-bordeaux-begles",
+      "source": "LNR"
+    },
+    "top14-11869": {
+      "competition": "Top 14",
+      "home": "Union Bordeaux-Bègles",
+      "away": "Aviron Bayonnais",
+      "startAt": "2026-10-31T11:00:00.000Z",
+      "channel": "Diffusion à confirmer",
+      "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j8/11869-bordeaux-begles-bayonne",
+      "source": "LNR"
+    },
+    "top14-11875": {
+      "competition": "Top 14",
+      "home": "RC Vannes",
+      "away": "Union Bordeaux-Bègles",
+      "startAt": "2026-11-07T11:00:00.000Z",
+      "channel": "Diffusion à confirmer",
+      "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j9/11875-vannes-bordeaux-begles",
+      "source": "LNR"
+    },
+    "top14-11883": {
+      "competition": "Top 14",
+      "home": "Union Bordeaux-Bègles",
+      "away": "Montpellier Hérault Rugby",
+      "startAt": "2026-11-28T11:00:00.000Z",
+      "channel": "Diffusion à confirmer",
+      "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j10/11883-bordeaux-begles-montpellier",
+      "source": "LNR"
+    },
+    "top14-11894": {
+      "competition": "Top 14",
+      "home": "RC Toulon",
+      "away": "Union Bordeaux-Bègles",
+      "startAt": "2026-12-05T11:00:00.000Z",
+      "channel": "Diffusion à confirmer",
+      "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j11/11894-toulon-bordeaux-begles",
+      "source": "LNR"
+    },
+    "top14-11897": {
+      "competition": "Top 14",
+      "home": "Union Bordeaux-Bègles",
+      "away": "Section Paloise",
+      "startAt": "2026-12-19T11:00:00.000Z",
+      "channel": "Diffusion à confirmer",
+      "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j12/11897-bordeaux-begles-pau",
+      "source": "LNR"
+    },
+    "top14-11905": {
+      "competition": "Top 14",
+      "home": "Castres Olympique",
+      "away": "Union Bordeaux-Bègles",
+      "startAt": "2026-12-26T11:00:00.000Z",
+      "channel": "Diffusion à confirmer",
+      "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j13/11905-castres-bordeaux-begles",
+      "source": "LNR"
+    },
+    "top14-11911": {
+      "competition": "Top 14",
+      "home": "Union Bordeaux-Bègles",
+      "away": "USA Perpignan",
+      "startAt": "2027-01-02T11:00:00.000Z",
+      "channel": "Diffusion à confirmer",
+      "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j14/11911-bordeaux-begles-perpignan",
+      "source": "LNR"
+    },
+    "top14-11921": {
+      "competition": "Top 14",
+      "home": "Racing 92",
+      "away": "Union Bordeaux-Bègles",
+      "startAt": "2027-01-23T11:00:00.000Z",
+      "channel": "Diffusion à confirmer",
+      "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j15/11921-racing-92-bordeaux-begles",
+      "source": "LNR"
+    },
+    "top14-11925": {
+      "competition": "Top 14",
+      "home": "Union Bordeaux-Bègles",
+      "away": "RC Vannes",
+      "startAt": "2027-01-30T11:00:00.000Z",
+      "channel": "Diffusion à confirmer",
+      "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j16/11925-bordeaux-begles-vannes",
+      "source": "LNR"
+    },
+    "top14-11935": {
+      "competition": "Top 14",
+      "home": "Stade Français Paris",
+      "away": "Union Bordeaux-Bègles",
+      "startAt": "2026-02-20T11:00:00.000Z",
+      "channel": "Diffusion à confirmer",
+      "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j17/11935-paris-bordeaux-begles",
+      "source": "LNR"
+    },
+    "top14-11938": {
+      "competition": "Top 14",
+      "home": "Union Bordeaux-Bègles",
+      "away": "RC Toulon",
+      "startAt": "2026-02-27T11:00:00.000Z",
+      "channel": "Diffusion à confirmer",
+      "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j18/11938-bordeaux-begles-toulon",
+      "source": "LNR"
+    },
+    "top14-11945": {
+      "competition": "Top 14",
+      "home": "Aviron Bayonnais",
+      "away": "Union Bordeaux-Bègles",
+      "startAt": "2026-03-20T11:00:00.000Z",
+      "channel": "Diffusion à confirmer",
+      "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j19/11945-bayonne-bordeaux-begles",
+      "source": "LNR"
+    },
+    "top14-11954": {
+      "competition": "Top 14",
+      "home": "Union Bordeaux-Bègles",
+      "away": "Stade Toulousain",
+      "startAt": "2026-03-27T11:00:00.000Z",
+      "channel": "Diffusion à confirmer",
+      "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j20/11954-bordeaux-begles-toulouse",
+      "source": "LNR"
+    },
+    "top14-11962": {
+      "competition": "Top 14",
+      "home": "Montpellier Hérault Rugby",
+      "away": "Union Bordeaux-Bègles",
+      "startAt": "2026-04-17T10:00:00.000Z",
+      "channel": "Diffusion à confirmer",
+      "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j21/11962-montpellier-bordeaux-begles",
+      "source": "LNR"
+    },
+    "top14-11968": {
+      "competition": "Top 14",
+      "home": "Union Bordeaux-Bègles",
+      "away": "Stade Rochelais",
+      "startAt": "2026-04-24T10:00:00.000Z",
+      "channel": "Diffusion à confirmer",
+      "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j22/11968-bordeaux-begles-la-rochelle",
+      "source": "LNR"
+    },
+    "top14-11977": {
+      "competition": "Top 14",
+      "home": "Section Paloise",
+      "away": "Union Bordeaux-Bègles",
+      "startAt": "2026-05-08T10:00:00.000Z",
+      "channel": "Diffusion à confirmer",
+      "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j23/11977-pau-bordeaux-begles",
+      "source": "LNR"
+    },
+    "top14-11981": {
+      "competition": "Top 14",
+      "home": "Union Bordeaux-Bègles",
+      "away": "ASM Clermont",
+      "startAt": "2026-05-15T10:00:00.000Z",
+      "channel": "Diffusion à confirmer",
+      "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j24/11981-bordeaux-begles-clermont",
+      "source": "LNR"
+    },
+    "top14-11990": {
+      "competition": "Top 14",
+      "home": "LOU Rugby",
+      "away": "Union Bordeaux-Bègles",
+      "startAt": "2026-05-29T10:00:00.000Z",
+      "channel": "Diffusion à confirmer",
+      "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j25/11990-lyon-bordeaux-begles",
+      "source": "LNR"
+    },
+    "top14-11995": {
+      "competition": "Top 14",
+      "home": "Union Bordeaux-Bègles",
+      "away": "Castres Olympique",
+      "startAt": "2026-06-05T10:00:00.000Z",
+      "channel": "Diffusion à confirmer",
+      "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j26/11995-bordeaux-begles-castres",
+      "source": "LNR"
+    },
+    "champions-293317": {
+      "competition": "Champions Cup",
+      "home": "Gloucester Rugby",
+      "away": "Union Bordeaux Bègles",
+      "startAt": "2026-10-16T19:00:00.000Z",
+      "channel": "beIN SPORTS / Premier Sports / epcrugby.tv",
+      "link": "https://www.epcrugby.com/fr/champions-cup/matchs/293317/actualite",
+      "source": "EPCR",
+      "announcedAt": "2026-08-25T19:56:08.134Z"
+    },
+    "champions-293340": {
+      "competition": "Champions Cup",
+      "home": "Union Bordeaux Bègles",
+      "away": "DHL Stormers",
+      "startAt": "2026-12-13T15:15:00.000Z",
+      "channel": "France TV / beIN SPORTS / Premier Sports / epcrugby.tv",
+      "link": "https://www.epcrugby.com/fr/champions-cup/matchs/293340/actualite",
+      "source": "EPCR",
+      "announcedAt": "2026-08-25T19:56:08.134Z"
+    },
+    "champions-293352": {
+      "competition": "Champions Cup",
+      "home": "Union Bordeaux Bègles",
+      "away": "Munster Rugby",
+      "startAt": "2027-01-10T15:15:00.000Z",
+      "channel": "France TV / beIN SPORTS / Premier Sports / epcrugby.tv",
+      "link": "https://www.epcrugby.com/fr/champions-cup/matchs/293352/actualite",
+      "source": "EPCR",
+      "announcedAt": "2026-08-25T19:56:08.134Z"
+    },
+    "champions-293361": {
+      "competition": "Champions Cup",
+      "home": "Bristol Bears",
+      "away": "Union Bordeaux Bègles",
+      "startAt": "2027-01-16T15:15:00.000Z",
+      "channel": "France TV / beIN SPORTS / Premier Sports / epcrugby.tv",
+      "link": "https://www.epcrugby.com/fr/champions-cup/matchs/293361/actualite",
+      "source": "EPCR",
+      "announcedAt": "2026-08-25T19:56:08.134Z"
+    }
+  },
+  "results": {}
+}
