@@ -1,0 +1,98 @@
+name: Mettre à jour le flux RSS NBA
+
+on:
+  schedule:
+    - cron: "5,15,25,35,45,55 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-nba-rss:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Générer les résultats finaux NBA
+        run: |
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
+
+          const OUTPUT = 'nba-resultats-rss.xml';
+          const STATE = 'nba-results-state.json';
+          const FEED_URL = 'https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml';
+          const API = 'https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard';
+          const xml = value => String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;');
+          const asDate = value => { const date = new Date(value); return Number.isNaN(date.getTime()) ? null : date; };
+          const dateIds = () => {
+            const format = new Intl.DateTimeFormat('en-CA', { timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit' });
+            return [...new Set(Array.from({ length: 7 }, (_, index) => format.format(new Date(Date.now() - index * 86400000)).replaceAll('-', '')))];
+          };
+          async function get(url) {
+            let lastError;
+            for (let attempt = 1; attempt <= 3; attempt += 1) {
+              try {
+                const response = await fetch(url, { headers: { 'User-Agent': 'NBAResultsRSS/1.0 (+https://github.com/NoannAlonn/France-basket-RSS)', Accept: 'application/json' }, signal: AbortSignal.timeout(25000) });
+                if (response.ok) return await response.json();
+                lastError = new Error(`ESPN répond HTTP ${response.status}.`);
+              } catch (error) { lastError = error; }
+              if (attempt < 3) await new Promise(resolve => setTimeout(resolve, attempt * 1200));
+            }
+            throw lastError;
+          }
+
+          const boards = await Promise.all(dateIds().map(date => get(`${API}?dates=${date}&limit=1000`)));
+          const previous = fs.existsSync(STATE) ? JSON.parse(fs.readFileSync(STATE, 'utf8')) : {};
+          const now = new Date();
+          const results = { ...(previous.results ?? {}) };
+          const seen = new Set();
+          for (const event of boards.flatMap(board => board.events ?? [])) {
+            const game = event.competitions?.[0];
+            const seasonType = event.season?.type?.type;
+            if (!game?.status?.type?.completed || seasonType === 1 || seen.has(event.id)) continue;
+            const home = game.competitors?.find(team => team.homeAway === 'home');
+            const away = game.competitors?.find(team => team.homeAway === 'away');
+            const startAt = asDate(event.date);
+            if (!home?.team?.displayName || !away?.team?.displayName || !/^\d+$/.test(home.score ?? '') || !/^\d+$/.test(away.score ?? '') || !startAt) continue;
+            seen.add(event.id);
+            if (!results[event.id]) results[event.id] = {
+              id: event.id,
+              seasonType: event.season?.type?.name ?? 'NBA',
+              home: home.team.displayName,
+              away: away.team.displayName,
+              homeScore: home.score,
+              awayScore: away.score,
+              startAt: startAt.toISOString(),
+              link: event.links?.find(link => link.rel?.includes('summary'))?.href ?? `https://www.espn.com/nba/game/_/gameId/${event.id}`,
+              publishedAt: now.toISOString(),
+            };
+          }
+
+          const before = JSON.stringify(previous.results ?? {});
+          const after = JSON.stringify(results);
+          const lastBuildAt = before === after && previous.lastBuildAt ? previous.lastBuildAt : now.toISOString();
+          const items = Object.values(results).sort((left, right) => new Date(right.publishedAt) - new Date(left.publishedAt)).slice(0, 120).map(game => {
+            const score = `${game.away} ${game.awayScore}–${game.homeScore} ${game.home}`;
+            return `\n    <item>\n      <title>${xml(`Résultat final NBA — ${score}`)}</title>\n      <link>${xml(game.link)}</link>\n      <guid isPermaLink="false">nba-result-${xml(game.id)}</guid>\n      <pubDate>${new Date(game.publishedAt).toUTCString()}</pubDate>\n      <description>${xml(`Résultat final NBA : ${score}. ${game.seasonType}.`)}</description>\n      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>\n    </item>`;
+          });
+          const rss = `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0">\n  <channel>\n    <title>NBA — Résultats finals Est & Ouest</title>\n    <link>${FEED_URL}</link>\n    <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>\n    <language>fr</language>\n    <lastBuildDate>${new Date(lastBuildAt).toUTCString()}</lastBuildDate>\n    <generator>NBA RSS sur GitHub</generator>${items.join('\n')}\n  </channel>\n</rss>\n`;
+          const state = { version: 1, lastBuildAt, results };
+          fs.writeFileSync(OUTPUT, rss, 'utf8');
+          fs.writeFileSync(STATE, `${JSON.stringify(state, null, 2)}\n`, 'utf8');
+          console.log(`${Object.keys(results).length} résultats NBA mémorisés.`);
+          NODE
+
+      - name: Enregistrer le flux NBA si nécessaire
+        run: |
+          if [ -z "$(git status --porcelain -- nba-resultats-rss.xml nba-results-state.json)" ]; then
+            echo "Aucune mise à jour NBA à enregistrer."
+            exit 0
+          fi
+          git config user.name "NBA Results RSS"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add nba-resultats-rss.xml nba-results-state.json
+          git commit -m "Mise à jour des résultats NBA"
+          git pull --rebase origin main
+          git push
