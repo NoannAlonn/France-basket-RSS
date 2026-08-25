@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>NBA — Résultats finals Est & Ouest</title>
+    <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml</link>
+    <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>
+    <language>fr</language>
+    <lastBuildDate>Tue, 25 Aug 2026 20:21:40 GMT</lastBuildDate>
+    <generator>NBA RSS sur GitHub</generator>
+  </channel>
+</rss>
