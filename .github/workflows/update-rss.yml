@@ -17,8 +17,8 @@ jobs:
 
       - name: Générer le flux à partir de Team France Basket
         run: |
-          node <<'NODE'
-          const fs = require('fs');
+          node --input-type=module <<'NODE'
+          import fs from 'node:fs';
 
           const sourceUrl = 'https://www.teamfrancebasket.com/';
           const output = 'resultats-bleus-rss.xml';
