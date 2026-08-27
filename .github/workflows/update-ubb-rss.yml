@@ -123,7 +123,7 @@ jobs:
             const event = { ...prior, competition: match.competition, home: match.home, away: match.away, startAt: match.startAt.toISOString(), channel: match.channel, link: match.link, source: match.source };
             if (match.startAt > now && match.timeKnown && !event.announcedAt) event.announcedAt = now.toISOString();
             const beforeMatch = match.startAt - now;
-            if (match.startAt > now && match.timeKnown && !event.remindedAt && beforeMatch >= 90 * 60 * 1000 && beforeMatch <= 150 * 60 * 1000) event.remindedAt = now.toISOString();
+            if (match.startAt > now && match.timeKnown && !event.remindedAt && beforeMatch > 0 && beforeMatch <= 150 * 60 * 1000) event.remindedAt = now.toISOString();
             state.matches[match.id] = event;
             if (match.startAt > now && match.timeKnown && event.announcedAt) {
               const moment = match.startAt.toLocaleString('fr-FR', { timeZone: 'Europe/Paris', weekday: 'long', day: '2-digit', month: 'long', year: 'numeric', hour: '2-digit', minute: '2-digit' }).replace(',', ' à');
