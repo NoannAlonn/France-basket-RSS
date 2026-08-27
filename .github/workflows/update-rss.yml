@@ -97,7 +97,7 @@ jobs:
             const previousMatch = previousMatches[String(match.id)] || {};
             const announcedAt = fromIso(previousMatch.announcedAt) || now;
             const untilMatch = match.startAt.getTime() - now.getTime();
-            const mustCreateReminder = !fromIso(previousMatch.remindedAt) && untilMatch >= reminderMin && untilMatch <= reminderMax;
+            const mustCreateReminder = !fromIso(previousMatch.remindedAt) && untilMatch > 0 && untilMatch <= reminderMax;
             const remindedAt = fromIso(previousMatch.remindedAt) || (mustCreateReminder ? now : null);
             nextMatches[String(match.id)] = { announcedAt: announcedAt.toISOString(), ...(remindedAt ? { remindedAt: remindedAt.toISOString() } : {}) };
 
