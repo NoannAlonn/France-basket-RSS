@@ -23,7 +23,7 @@ jobs:
           // Les horaires du calendrier Team France Basket sont en heure française.
           process.env.TZ = 'Europe/Paris';
 
-          const sourceUrl = 'https://www.teamfrancebasket.com/schedule/0';
+          const sourceUrl = 'https://www.teamfrancebasket.com/';
           const resultsOutput = 'resultats-bleus-rss.xml';
           const broadcastsOutput = 'prochains-matchs-bleus.xml';
           const broadcastsStateOutput = 'bleus-diffusion-state.json';
