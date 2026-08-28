@@ -23,7 +23,9 @@ jobs:
           // Les horaires du calendrier Team France Basket sont en heure française.
           process.env.TZ = 'Europe/Paris';
 
-          const sourceUrl = 'https://www.teamfrancebasket.com/';
+          const scheduleUrl = 'https://www.teamfrancebasket.com/schedule/0';
+          const fallbackUrl = 'https://www.teamfrancebasket.com/';
+          const sourceUrl = fallbackUrl;
           const resultsOutput = 'resultats-bleus-rss.xml';
           const broadcastsOutput = 'prochains-matchs-bleus.xml';
           const broadcastsStateOutput = 'bleus-diffusion-state.json';
@@ -49,9 +51,17 @@ jobs:
             return date && time ? new Date(+date[3], +date[2] - 1, +date[1], +time[1], +time[2]) : null;
           };
 
-          const response = await fetch(sourceUrl, { headers: { 'User-Agent': 'FranceBasketRSS/1.0', 'Accept': 'text/html' } });
-          if (!response.ok) throw new Error(`Calendrier Team France Basket indisponible (${response.status}).`);
-          const html = await response.text();
+          const fetchHtml = async url => {
+            const response = await fetch(url, { headers: { 'User-Agent': 'FranceBasketRSS/1.0', 'Accept': 'text/html' } });
+            if (!response.ok) throw new Error(`Source Team France Basket indisponible (${response.status}).`);
+            return response.text();
+          };
+          let scheduleHtml = '';
+          try { scheduleHtml = await fetchHtml(scheduleUrl); } catch { scheduleHtml = ''; }
+          let fallbackHtml = '';
+          try { fallbackHtml = await fetchHtml(fallbackUrl); } catch { fallbackHtml = ''; }
+          if (!scheduleHtml && !fallbackHtml) throw new Error('Sources officielles Team France Basket indisponibles.');
+          const html = `${scheduleHtml}\n${fallbackHtml}`;
           const cards = html.match(/<article class="tile__schedule__item"[\s\S]*?<\/article>/gi) || [];
 
           const matches = cards.flatMap(card => {
@@ -68,9 +78,10 @@ jobs:
             if (teams.length < 2) return [];
             return [{ id: scoreBlock?.[1] || toId(`${dateText}-${teams[0]}-${teams[1]}`), dateText, teams, score, competition, startAt, channel }];
           });
+          const uniqueMatches = [...new Map(matches.map(match => [String(match.id), match])).values()];
 
           // Le flux de résultats existant reste indépendant et inchangé dans son contenu.
-          const finished = matches.flatMap(match => {
+          const finished = uniqueMatches.flatMap(match => {
             const scoreParts = match.score.match(/^(\d+)\s*-\s*(\d+)$/);
             const dateParts = match.dateText.match(/^(\d{2})\/(\d{2})\/(\d{4})$/);
             if (!scoreParts || !dateParts) return [];
@@ -93,7 +104,7 @@ jobs:
           const reminderMin = (reminderMinutesBefore - reminderWindowMinutes) * 60 * 1000;
           const reminderMax = (reminderMinutesBefore + reminderWindowMinutes) * 60 * 1000;
 
-          for (const match of matches.filter(match => match.score === 'VS' && match.startAt && match.startAt > now).sort((a, b) => a.startAt - b.startAt)) {
+          for (const match of uniqueMatches.filter(match => match.score === 'VS' && match.startAt && match.startAt > now).sort((a, b) => a.startAt - b.startAt)) {
             const previousMatch = previousMatches[String(match.id)] || {};
             const announcedAt = fromIso(previousMatch.announcedAt) || now;
             const untilMatch = match.startAt.getTime() - now.getTime();
@@ -122,7 +133,7 @@ jobs:
           broadcastItems.sort((a, b) => b.date - a.date || b.xml.localeCompare(a.xml));
           fs.writeFileSync(broadcastsOutput, `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0">\n  <channel>\n    <title>Les Bleus — Prochains matchs et diffusions</title>\n    <link>${broadcastFeedUrl}</link>\n    <description>Matchs annoncés et rappels environ deux heures avant le coup d’envoi pour l’équipe de France masculine senior de basket.</description>\n    <language>fr</language>\n    <lastBuildDate>${lastBuildAt.toUTCString()}</lastBuildDate>\n    <generator>France Basket RSS sur GitHub</generator>${broadcastItems.map(item => item.xml).join('\n')}\n  </channel>\n</rss>\n`, 'utf8');
           fs.writeFileSync(broadcastsStateOutput, `${JSON.stringify(state, null, 2)}\n`, 'utf8');
-          console.log(`${finished.length} résultats et ${broadcastItems.length} éléments de diffusion générés.`);
+          console.log(`${finished.length} résultats et ${broadcastItems.length} éléments de diffusion générés depuis les sources officielles.`);
           NODE
 
       - name: Enregistrer les nouveaux éléments s’il y en a
@@ -135,4 +146,3 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add resultats-bleus-rss.xml prochains-matchs-bleus.xml bleus-diffusion-state.json
           git commit -m "Mise à jour des flux des Bleus"
-          git push
