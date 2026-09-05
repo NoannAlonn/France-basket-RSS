@@ -5,8 +5,17 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/ubb-rugby-rss.xml</link>
     <description>Résultats finaux, annonces de match et rappels deux heures avant pour l’Union Bordeaux Bègles masculine senior.</description>
     <language>fr</language>
-    <lastBuildDate>Tue, 25 Aug 2026 19:56:08 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 16:52:30 GMT</lastBuildDate>
     <generator>UBB RSS sur GitHub</generator>
+    <item>
+      <title>Rappel — L’UBB joue dans environ 2 heures</title>
+      <link>https://top14.lnr.fr/feuille-de-match/2026-2027/j1/11820-bordeaux-begles-racing-92</link>
+      <guid isPermaLink="false">ubb-rappel-2h-top14-11820</guid>
+      <pubDate>Sat, 05 Sep 2026 16:52:30 GMT</pubDate>
+      <description>Union Bordeaux-Bègles – Racing 92, samedi 05 septembre 2026 à 21:15, Canal +. Compétition : Top 14. Préparez votre diffusion.</description>
+      <source url="https://top14.lnr.fr/club/bordeaux-begles/calendrier-resultats">LNR</source>
+    </item>
+
     <item>
       <title>Match annoncé — UBB : USA Perpignan – Union Bordeaux-Bègles</title>
       <link>https://top14.lnr.fr/feuille-de-match/2026-2027/j4/11840-perpignan-bordeaux-begles</link>

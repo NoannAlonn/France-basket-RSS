@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-08-25T19:56:08.134Z",
+  "lastBuildAt": "2026-09-05T16:52:30.695Z",
   "matches": {
     "top14-11820": {
       "competition": "Top 14",
@@ -10,7 +10,8 @@
       "channel": "Canal +",
       "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j1/11820-bordeaux-begles-racing-92",
       "source": "LNR",
-      "announcedAt": "2026-08-25T19:56:08.134Z"
+      "announcedAt": "2026-08-25T19:56:08.134Z",
+      "remindedAt": "2026-09-05T16:52:30.695Z"
     },
     "top14-11832": {
       "competition": "Top 14",
