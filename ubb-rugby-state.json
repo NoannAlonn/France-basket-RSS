@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-09-05T16:52:30.695Z",
+  "lastBuildAt": "2026-09-05T21:17:41.705Z",
   "matches": {
     "top14-11820": {
       "competition": "Top 14",
       "home": "Union Bordeaux-Bègles",
       "away": "Racing 92",
-      "startAt": "2026-09-05T19:15:00.000Z",
-      "channel": "Canal +",
+      "startAt": "2026-09-05T10:00:00.000Z",
+      "channel": "Diffusion à confirmer",
       "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j1/11820-bordeaux-begles-racing-92",
       "source": "LNR",
       "announcedAt": "2026-08-25T19:56:08.134Z",
