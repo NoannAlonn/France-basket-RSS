@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-09-06T01:18:15.957Z",
+  "lastBuildAt": "2026-09-08T11:04:58.212Z",
   "matches": {
     "top14-11820": {
       "competition": "Top 14",
@@ -156,7 +156,7 @@
       "competition": "Top 14",
       "home": "Stade Français Paris",
       "away": "Union Bordeaux-Bègles",
-      "startAt": "2026-02-20T11:00:00.000Z",
+      "startAt": "2027-02-20T11:00:00.000Z",
       "channel": "Diffusion à confirmer",
       "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j17/11935-paris-bordeaux-begles",
       "source": "LNR"
