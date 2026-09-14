@@ -5,8 +5,17 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/ubb-rugby-rss.xml</link>
     <description>Résultats finaux, annonces de match et rappels deux heures avant pour l’Union Bordeaux Bègles masculine senior.</description>
     <language>fr</language>
-    <lastBuildDate>Sun, 13 Sep 2026 21:18:43 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 01:06:28 GMT</lastBuildDate>
     <generator>UBB RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final — UBB : Stade Toulousain 48–12 Union Bordeaux-Bègles</title>
+      <link>https://top14.lnr.fr/feuille-de-match/2026-2027/j2/11832-toulouse-bordeaux-begles</link>
+      <guid isPermaLink="false">ubb-resultat-top14-11832</guid>
+      <pubDate>Mon, 14 Sep 2026 01:06:28 GMT</pubDate>
+      <description>Résultat final : Stade Toulousain 48–12 Union Bordeaux-Bègles. Compétition : Top 14.</description>
+      <source url="https://top14.lnr.fr/club/bordeaux-begles/calendrier-resultats">LNR</source>
+    </item>
+
     <item>
       <title>Résultat final — UBB : Union Bordeaux-Bègles 64–5 Racing 92</title>
       <link>https://top14.lnr.fr/feuille-de-match/2026-2027/j1/11820-bordeaux-begles-racing-92</link>

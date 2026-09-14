@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-09-13T21:18:43.730Z",
+  "lastBuildAt": "2026-09-14T01:06:28.578Z",
   "matches": {
     "top14-11820": {
       "competition": "Top 14",
@@ -298,6 +298,20 @@
       "homeScore": "64",
       "awayScore": "5",
       "publishedAt": "2026-09-06T01:18:15.957Z"
+    },
+    "top14-11832": {
+      "competition": "Top 14",
+      "home": "Stade Toulousain",
+      "away": "Union Bordeaux-Bègles",
+      "startAt": "2026-09-13T10:00:00.000Z",
+      "channel": "Diffusion à confirmer",
+      "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j2/11832-toulouse-bordeaux-begles",
+      "source": "LNR",
+      "announcedAt": "2026-08-25T19:56:08.134Z",
+      "remindedAt": "2026-09-13T16:40:46.462Z",
+      "homeScore": "48",
+      "awayScore": "12",
+      "publishedAt": "2026-09-14T01:06:28.578Z"
     }
   }
 }
