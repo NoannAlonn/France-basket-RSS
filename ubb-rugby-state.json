@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-09-15T11:05:16.963Z",
+  "lastBuildAt": "2026-09-18T14:04:57.156Z",
   "matches": {
     "top14-11820": {
       "competition": "Top 14",
@@ -58,10 +58,11 @@
       "competition": "Top 14",
       "home": "ASM Clermont",
       "away": "Union Bordeaux-Bègles",
-      "startAt": "2026-10-10T10:00:00.000Z",
-      "channel": "Diffusion à confirmer",
+      "startAt": "2026-10-10T19:00:00.000Z",
+      "channel": "Canal +",
       "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j6/11855-clermont-bordeaux-begles",
-      "source": "LNR"
+      "source": "LNR",
+      "announcedAt": "2026-09-18T14:04:57.156Z"
     },
     "top14-11864": {
       "competition": "Top 14",

@@ -5,8 +5,17 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/ubb-rugby-rss.xml</link>
     <description>Résultats finaux, annonces de match et rappels deux heures avant pour l’Union Bordeaux Bègles masculine senior.</description>
     <language>fr</language>
-    <lastBuildDate>Tue, 15 Sep 2026 11:05:16 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 14:04:57 GMT</lastBuildDate>
     <generator>UBB RSS sur GitHub</generator>
+    <item>
+      <title>Match annoncé — UBB : ASM Clermont – Union Bordeaux-Bègles</title>
+      <link>https://top14.lnr.fr/feuille-de-match/2026-2027/j6/11855-clermont-bordeaux-begles</link>
+      <guid isPermaLink="false">ubb-annonce-top14-11855</guid>
+      <pubDate>Fri, 18 Sep 2026 14:04:57 GMT</pubDate>
+      <description>ASM Clermont – Union Bordeaux-Bègles, samedi 10 octobre 2026 à 21:00, Canal +. Compétition : Top 14.</description>
+      <source url="https://top14.lnr.fr/club/bordeaux-begles/calendrier-resultats">LNR</source>
+    </item>
+
     <item>
       <title>Résultat final — UBB : Stade Toulousain 48–12 Union Bordeaux-Bègles</title>
       <link>https://top14.lnr.fr/feuille-de-match/2026-2027/j2/11832-toulouse-bordeaux-begles</link>
