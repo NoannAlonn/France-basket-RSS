@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-09-20T21:18:42.043Z",
+  "lastBuildAt": "2026-09-21T01:19:15.222Z",
   "matches": {
     "top14-11820": {
       "competition": "Top 14",
@@ -314,6 +314,20 @@
       "homeScore": "48",
       "awayScore": "12",
       "publishedAt": "2026-09-14T01:06:28.578Z"
+    },
+    "top14-11834": {
+      "competition": "Top 14",
+      "home": "Union Bordeaux-Bègles",
+      "away": "Stade Français Paris",
+      "startAt": "2026-09-20T10:00:00.000Z",
+      "channel": "Diffusion à confirmer",
+      "link": "https://top14.lnr.fr/feuille-de-match/2026-2027/j3/11834-bordeaux-begles-paris",
+      "source": "LNR",
+      "announcedAt": "2026-08-25T19:56:08.134Z",
+      "remindedAt": "2026-09-20T16:39:12.864Z",
+      "homeScore": "40",
+      "awayScore": "10",
+      "publishedAt": "2026-09-21T01:19:15.222Z"
     }
   }
 }
