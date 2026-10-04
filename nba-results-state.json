@@ -1,5 +1,17 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-08-25T20:21:40.370Z",
-  "results": {}
+  "lastBuildAt": "2026-10-04T02:41:23.207Z",
+  "results": {
+    "401902644": {
+      "id": "401902644",
+      "seasonType": "NBA",
+      "home": "Toronto Raptors",
+      "away": "Miami Heat",
+      "homeScore": "105",
+      "awayScore": "129",
+      "startAt": "2026-10-03T23:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401902644/heat-raptors",
+      "publishedAt": "2026-10-04T02:41:23.207Z"
+    }
+  }
 }

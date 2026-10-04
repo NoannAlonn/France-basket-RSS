@@ -5,7 +5,15 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml</link>
     <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>
     <language>fr</language>
-    <lastBuildDate>Tue, 25 Aug 2026 20:21:40 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 02:41:23 GMT</lastBuildDate>
     <generator>NBA RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final NBA — Miami Heat 129–105 Toronto Raptors</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401902644/heat-raptors</link>
+      <guid isPermaLink="false">nba-result-401902644</guid>
+      <pubDate>Sun, 04 Oct 2026 02:41:23 GMT</pubDate>
+      <description>Résultat final NBA : Miami Heat 129–105 Toronto Raptors. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
   </channel>
 </rss>
