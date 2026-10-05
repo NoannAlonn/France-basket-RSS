@@ -5,8 +5,26 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml</link>
     <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>
     <language>fr</language>
-    <lastBuildDate>Sun, 04 Oct 2026 02:41:23 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 05:51:05 GMT</lastBuildDate>
     <generator>NBA RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final NBA — Utah Jazz 109–97 Denver Nuggets</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401914127/jazz-nuggets</link>
+      <guid isPermaLink="false">nba-result-401914127</guid>
+      <pubDate>Mon, 05 Oct 2026 05:51:05 GMT</pubDate>
+      <description>Résultat final NBA : Utah Jazz 109–97 Denver Nuggets. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — Golden State Warriors 101–104 LA Clippers</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401918010/warriors-clippers</link>
+      <guid isPermaLink="false">nba-result-401918010</guid>
+      <pubDate>Mon, 05 Oct 2026 05:51:05 GMT</pubDate>
+      <description>Résultat final NBA : Golden State Warriors 101–104 LA Clippers. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
     <item>
       <title>Résultat final NBA — Miami Heat 129–105 Toronto Raptors</title>
       <link>https://www.espn.com/nba/game/_/gameId/401902644/heat-raptors</link>

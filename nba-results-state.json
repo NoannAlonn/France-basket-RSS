@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-10-04T02:41:23.207Z",
+  "lastBuildAt": "2026-10-05T05:51:05.148Z",
   "results": {
     "401902644": {
       "id": "401902644",
@@ -12,6 +12,28 @@
       "startAt": "2026-10-03T23:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401902644/heat-raptors",
       "publishedAt": "2026-10-04T02:41:23.207Z"
+    },
+    "401914127": {
+      "id": "401914127",
+      "seasonType": "NBA",
+      "home": "Denver Nuggets",
+      "away": "Utah Jazz",
+      "homeScore": "97",
+      "awayScore": "109",
+      "startAt": "2026-10-04T23:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401914127/jazz-nuggets",
+      "publishedAt": "2026-10-05T05:51:05.148Z"
+    },
+    "401918010": {
+      "id": "401918010",
+      "seasonType": "NBA",
+      "home": "LA Clippers",
+      "away": "Golden State Warriors",
+      "homeScore": "104",
+      "awayScore": "101",
+      "startAt": "2026-10-04T23:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401918010/warriors-clippers",
+      "publishedAt": "2026-10-05T05:51:05.148Z"
     }
   }
 }
