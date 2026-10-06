@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-10-06T01:46:04.264Z",
+  "lastBuildAt": "2026-10-06T08:18:48.343Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -13,6 +13,17 @@
       "link": "https://www.espn.com/nba/game/_/gameId/401898388/grizzlies-hawks",
       "publishedAt": "2026-10-06T01:46:04.264Z"
     },
+    "401898716": {
+      "id": "401898716",
+      "seasonType": "NBA",
+      "home": "Sacramento Kings",
+      "away": "Los Angeles Lakers",
+      "homeScore": "103",
+      "awayScore": "127",
+      "startAt": "2026-10-06T02:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401898716/lakers-kings",
+      "publishedAt": "2026-10-06T08:18:48.343Z"
+    },
     "401902644": {
       "id": "401902644",
       "seasonType": "NBA",
@@ -24,6 +35,17 @@
       "link": "https://www.espn.com/nba/game/_/gameId/401902644/heat-raptors",
       "publishedAt": "2026-10-04T02:41:23.207Z"
     },
+    "401908947": {
+      "id": "401908947",
+      "seasonType": "NBA",
+      "home": "Detroit Pistons",
+      "away": "Phoenix Suns",
+      "homeScore": "109",
+      "awayScore": "107",
+      "startAt": "2026-10-05T23:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401908947/suns-pistons",
+      "publishedAt": "2026-10-06T08:18:48.343Z"
+    },
     "401914101": {
       "id": "401914101",
       "seasonType": "NBA",
@@ -34,6 +56,17 @@
       "startAt": "2026-10-05T23:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401914101/knicks-76ers",
       "publishedAt": "2026-10-06T01:46:04.264Z"
+    },
+    "401914102": {
+      "id": "401914102",
+      "seasonType": "NBA",
+      "home": "Milwaukee Bucks",
+      "away": "Minnesota Timberwolves",
+      "homeScore": "97",
+      "awayScore": "116",
+      "startAt": "2026-10-06T00:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401914102/timberwolves-bucks",
+      "publishedAt": "2026-10-06T08:18:48.343Z"
     },
     "401914127": {
       "id": "401914127",
