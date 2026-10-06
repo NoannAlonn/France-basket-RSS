@@ -5,8 +5,26 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml</link>
     <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>
     <language>fr</language>
-    <lastBuildDate>Mon, 05 Oct 2026 05:51:05 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 01:46:04 GMT</lastBuildDate>
     <generator>NBA RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final NBA — Memphis Grizzlies 132–123 Atlanta Hawks</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401898388/grizzlies-hawks</link>
+      <guid isPermaLink="false">nba-result-401898388</guid>
+      <pubDate>Tue, 06 Oct 2026 01:46:04 GMT</pubDate>
+      <description>Résultat final NBA : Memphis Grizzlies 132–123 Atlanta Hawks. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — New York Knicks 97–120 Philadelphia 76ers</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401914101/knicks-76ers</link>
+      <guid isPermaLink="false">nba-result-401914101</guid>
+      <pubDate>Tue, 06 Oct 2026 01:46:04 GMT</pubDate>
+      <description>Résultat final NBA : New York Knicks 97–120 Philadelphia 76ers. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
     <item>
       <title>Résultat final NBA — Utah Jazz 109–97 Denver Nuggets</title>
       <link>https://www.espn.com/nba/game/_/gameId/401914127/jazz-nuggets</link>

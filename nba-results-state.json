@@ -1,7 +1,18 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-10-05T05:51:05.148Z",
+  "lastBuildAt": "2026-10-06T01:46:04.264Z",
   "results": {
+    "401898388": {
+      "id": "401898388",
+      "seasonType": "NBA",
+      "home": "Atlanta Hawks",
+      "away": "Memphis Grizzlies",
+      "homeScore": "123",
+      "awayScore": "132",
+      "startAt": "2026-10-05T23:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401898388/grizzlies-hawks",
+      "publishedAt": "2026-10-06T01:46:04.264Z"
+    },
     "401902644": {
       "id": "401902644",
       "seasonType": "NBA",
@@ -12,6 +23,17 @@
       "startAt": "2026-10-03T23:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401902644/heat-raptors",
       "publishedAt": "2026-10-04T02:41:23.207Z"
+    },
+    "401914101": {
+      "id": "401914101",
+      "seasonType": "NBA",
+      "home": "Philadelphia 76ers",
+      "away": "New York Knicks",
+      "homeScore": "120",
+      "awayScore": "97",
+      "startAt": "2026-10-05T23:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401914101/knicks-76ers",
+      "publishedAt": "2026-10-06T01:46:04.264Z"
     },
     "401914127": {
       "id": "401914127",
