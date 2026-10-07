@@ -5,8 +5,44 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml</link>
     <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>
     <language>fr</language>
-    <lastBuildDate>Tue, 06 Oct 2026 08:18:48 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 05:50:15 GMT</lastBuildDate>
     <generator>NBA RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final NBA — New Orleans Pelicans 116–110 Oklahoma City Thunder</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401898389/pelicans-thunder</link>
+      <guid isPermaLink="false">nba-result-401898389</guid>
+      <pubDate>Wed, 07 Oct 2026 05:50:15 GMT</pubDate>
+      <description>Résultat final NBA : New Orleans Pelicans 116–110 Oklahoma City Thunder. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — Los Angeles Lakers 98–124 Golden State Warriors</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401898390/lakers-warriors</link>
+      <guid isPermaLink="false">nba-result-401898390</guid>
+      <pubDate>Wed, 07 Oct 2026 05:50:15 GMT</pubDate>
+      <description>Résultat final NBA : Los Angeles Lakers 98–124 Golden State Warriors. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — Brooklyn Nets 124–90 Charlotte Hornets</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401901820/nets-hornets</link>
+      <guid isPermaLink="false">nba-result-401901820</guid>
+      <pubDate>Wed, 07 Oct 2026 05:50:15 GMT</pubDate>
+      <description>Résultat final NBA : Brooklyn Nets 124–90 Charlotte Hornets. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — Denver Nuggets 117–106 Utah Jazz</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401914128/nuggets-jazz</link>
+      <guid isPermaLink="false">nba-result-401914128</guid>
+      <pubDate>Wed, 07 Oct 2026 05:50:15 GMT</pubDate>
+      <description>Résultat final NBA : Denver Nuggets 117–106 Utah Jazz. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
     <item>
       <title>Résultat final NBA — Los Angeles Lakers 127–103 Sacramento Kings</title>
       <link>https://www.espn.com/nba/game/_/gameId/401898716/lakers-kings</link>

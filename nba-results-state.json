@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-10-06T08:18:48.343Z",
+  "lastBuildAt": "2026-10-07T05:50:15.019Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -13,6 +13,28 @@
       "link": "https://www.espn.com/nba/game/_/gameId/401898388/grizzlies-hawks",
       "publishedAt": "2026-10-06T01:46:04.264Z"
     },
+    "401898389": {
+      "id": "401898389",
+      "seasonType": "NBA",
+      "home": "Oklahoma City Thunder",
+      "away": "New Orleans Pelicans",
+      "homeScore": "110",
+      "awayScore": "116",
+      "startAt": "2026-10-07T00:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401898389/pelicans-thunder",
+      "publishedAt": "2026-10-07T05:50:15.019Z"
+    },
+    "401898390": {
+      "id": "401898390",
+      "seasonType": "NBA",
+      "home": "Golden State Warriors",
+      "away": "Los Angeles Lakers",
+      "homeScore": "124",
+      "awayScore": "98",
+      "startAt": "2026-10-07T02:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401898390/lakers-warriors",
+      "publishedAt": "2026-10-07T05:50:15.019Z"
+    },
     "401898716": {
       "id": "401898716",
       "seasonType": "NBA",
@@ -23,6 +45,17 @@
       "startAt": "2026-10-06T02:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401898716/lakers-kings",
       "publishedAt": "2026-10-06T08:18:48.343Z"
+    },
+    "401901820": {
+      "id": "401901820",
+      "seasonType": "NBA",
+      "home": "Charlotte Hornets",
+      "away": "Brooklyn Nets",
+      "homeScore": "90",
+      "awayScore": "124",
+      "startAt": "2026-10-06T23:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401901820/nets-hornets",
+      "publishedAt": "2026-10-07T05:50:15.019Z"
     },
     "401902644": {
       "id": "401902644",
@@ -78,6 +111,17 @@
       "startAt": "2026-10-04T23:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401914127/jazz-nuggets",
       "publishedAt": "2026-10-05T05:51:05.148Z"
+    },
+    "401914128": {
+      "id": "401914128",
+      "seasonType": "NBA",
+      "home": "Utah Jazz",
+      "away": "Denver Nuggets",
+      "homeScore": "106",
+      "awayScore": "117",
+      "startAt": "2026-10-07T01:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401914128/nuggets-jazz",
+      "publishedAt": "2026-10-07T05:50:15.019Z"
     },
     "401918010": {
       "id": "401918010",
