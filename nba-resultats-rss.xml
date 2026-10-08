@@ -5,8 +5,44 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml</link>
     <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>
     <language>fr</language>
-    <lastBuildDate>Wed, 07 Oct 2026 05:50:15 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 02:53:07 GMT</lastBuildDate>
     <generator>NBA RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final NBA — Orlando Magic 122–118 Memphis Grizzlies</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401898391/magic-grizzlies</link>
+      <guid isPermaLink="false">nba-result-401898391</guid>
+      <pubDate>Thu, 08 Oct 2026 02:53:07 GMT</pubDate>
+      <description>Résultat final NBA : Orlando Magic 122–118 Memphis Grizzlies. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — Milwaukee Bucks 128–126 Oklahoma City Thunder</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401908620/bucks-thunder</link>
+      <guid isPermaLink="false">nba-result-401908620</guid>
+      <pubDate>Thu, 08 Oct 2026 02:53:07 GMT</pubDate>
+      <description>Résultat final NBA : Milwaukee Bucks 128–126 Oklahoma City Thunder. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — Phoenix Suns 117–124 Chicago Bulls</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401908939/suns-bulls</link>
+      <guid isPermaLink="false">nba-result-401908939</guid>
+      <pubDate>Thu, 08 Oct 2026 02:53:07 GMT</pubDate>
+      <description>Résultat final NBA : Phoenix Suns 117–124 Chicago Bulls. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — Minnesota Timberwolves 112–123 Indiana Pacers</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401914123/timberwolves-pacers</link>
+      <guid isPermaLink="false">nba-result-401914123</guid>
+      <pubDate>Thu, 08 Oct 2026 02:53:07 GMT</pubDate>
+      <description>Résultat final NBA : Minnesota Timberwolves 112–123 Indiana Pacers. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
     <item>
       <title>Résultat final NBA — New Orleans Pelicans 116–110 Oklahoma City Thunder</title>
       <link>https://www.espn.com/nba/game/_/gameId/401898389/pelicans-thunder</link>
