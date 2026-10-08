@@ -5,8 +5,17 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml</link>
     <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>
     <language>fr</language>
-    <lastBuildDate>Thu, 08 Oct 2026 02:53:07 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 10:01:55 GMT</lastBuildDate>
     <generator>NBA RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final NBA — Golden State Warriors 118–123 Portland Trail Blazers</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401914129/warriors-trail-blazers</link>
+      <guid isPermaLink="false">nba-result-401914129</guid>
+      <pubDate>Thu, 08 Oct 2026 10:01:55 GMT</pubDate>
+      <description>Résultat final NBA : Golden State Warriors 118–123 Portland Trail Blazers. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
     <item>
       <title>Résultat final NBA — Orlando Magic 122–118 Memphis Grizzlies</title>
       <link>https://www.espn.com/nba/game/_/gameId/401898391/magic-grizzlies</link>
