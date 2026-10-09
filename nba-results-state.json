@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-10-09T02:20:38.063Z",
+  "lastBuildAt": "2026-10-09T09:22:37.332Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -68,6 +68,17 @@
       "link": "https://www.espn.com/nba/game/_/gameId/401898393/pelicans-heat",
       "publishedAt": "2026-10-09T02:20:38.063Z"
     },
+    "401898394": {
+      "id": "401898394",
+      "seasonType": "NBA",
+      "home": "San Antonio Spurs",
+      "away": "Atlanta Hawks",
+      "homeScore": "116",
+      "awayScore": "123",
+      "startAt": "2026-10-09T00:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401898394/hawks-spurs",
+      "publishedAt": "2026-10-09T09:22:37.332Z"
+    },
     "401898716": {
       "id": "401898716",
       "seasonType": "NBA",
@@ -78,6 +89,17 @@
       "startAt": "2026-10-06T02:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401898716/lakers-kings",
       "publishedAt": "2026-10-06T08:18:48.343Z"
+    },
+    "401898717": {
+      "id": "401898717",
+      "seasonType": "NBA",
+      "home": "Los Angeles Lakers",
+      "away": "Sacramento Kings",
+      "homeScore": "114",
+      "awayScore": "110",
+      "startAt": "2026-10-09T02:45:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401898717/kings-lakers",
+      "publishedAt": "2026-10-09T09:22:37.332Z"
     },
     "401901820": {
       "id": "401901820",
