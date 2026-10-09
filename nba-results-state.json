@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-10-08T10:01:55.546Z",
+  "lastBuildAt": "2026-10-09T02:20:38.063Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -46,6 +46,28 @@
       "link": "https://www.espn.com/nba/game/_/gameId/401898391/magic-grizzlies",
       "publishedAt": "2026-10-08T02:53:07.247Z"
     },
+    "401898392": {
+      "id": "401898392",
+      "seasonType": "NBA",
+      "home": "Cleveland Cavaliers",
+      "away": "Boston Celtics",
+      "homeScore": "113",
+      "awayScore": "124",
+      "startAt": "2026-10-08T23:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401898392/celtics-cavaliers",
+      "publishedAt": "2026-10-09T02:20:38.063Z"
+    },
+    "401898393": {
+      "id": "401898393",
+      "seasonType": "NBA",
+      "home": "Miami Heat",
+      "away": "New Orleans Pelicans",
+      "homeScore": "128",
+      "awayScore": "118",
+      "startAt": "2026-10-08T23:30:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401898393/pelicans-heat",
+      "publishedAt": "2026-10-09T02:20:38.063Z"
+    },
     "401898716": {
       "id": "401898716",
       "seasonType": "NBA",
@@ -68,6 +90,17 @@
       "link": "https://www.espn.com/nba/game/_/gameId/401901820/nets-hornets",
       "publishedAt": "2026-10-07T05:50:15.019Z"
     },
+    "401901823": {
+      "id": "401901823",
+      "seasonType": "NBA",
+      "home": "Brooklyn Nets",
+      "away": "Philadelphia 76ers",
+      "homeScore": "114",
+      "awayScore": "108",
+      "startAt": "2026-10-08T23:30:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401901823/76ers-nets",
+      "publishedAt": "2026-10-09T02:20:38.063Z"
+    },
     "401902644": {
       "id": "401902644",
       "seasonType": "NBA",
@@ -78,6 +111,17 @@
       "startAt": "2026-10-03T23:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401902644/heat-raptors",
       "publishedAt": "2026-10-04T02:41:23.207Z"
+    },
+    "401906508": {
+      "id": "401906508",
+      "seasonType": "NBA",
+      "home": "New York Knicks",
+      "away": "Washington Wizards",
+      "homeScore": "109",
+      "awayScore": "111",
+      "startAt": "2026-10-08T23:30:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401906508/wizards-knicks",
+      "publishedAt": "2026-10-09T02:20:38.063Z"
     },
     "401908620": {
       "id": "401908620",

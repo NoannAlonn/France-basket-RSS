@@ -5,8 +5,44 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml</link>
     <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>
     <language>fr</language>
-    <lastBuildDate>Thu, 08 Oct 2026 10:01:55 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 02:20:38 GMT</lastBuildDate>
     <generator>NBA RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final NBA — Boston Celtics 124–113 Cleveland Cavaliers</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401898392/celtics-cavaliers</link>
+      <guid isPermaLink="false">nba-result-401898392</guid>
+      <pubDate>Fri, 09 Oct 2026 02:20:38 GMT</pubDate>
+      <description>Résultat final NBA : Boston Celtics 124–113 Cleveland Cavaliers. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — New Orleans Pelicans 118–128 Miami Heat</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401898393/pelicans-heat</link>
+      <guid isPermaLink="false">nba-result-401898393</guid>
+      <pubDate>Fri, 09 Oct 2026 02:20:38 GMT</pubDate>
+      <description>Résultat final NBA : New Orleans Pelicans 118–128 Miami Heat. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — Philadelphia 76ers 108–114 Brooklyn Nets</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401901823/76ers-nets</link>
+      <guid isPermaLink="false">nba-result-401901823</guid>
+      <pubDate>Fri, 09 Oct 2026 02:20:38 GMT</pubDate>
+      <description>Résultat final NBA : Philadelphia 76ers 108–114 Brooklyn Nets. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — Washington Wizards 111–109 New York Knicks</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401906508/wizards-knicks</link>
+      <guid isPermaLink="false">nba-result-401906508</guid>
+      <pubDate>Fri, 09 Oct 2026 02:20:38 GMT</pubDate>
+      <description>Résultat final NBA : Washington Wizards 111–109 New York Knicks. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
     <item>
       <title>Résultat final NBA — Golden State Warriors 118–123 Portland Trail Blazers</title>
       <link>https://www.espn.com/nba/game/_/gameId/401914129/warriors-trail-blazers</link>
