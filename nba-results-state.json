@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-10-09T09:22:37.332Z",
+  "lastBuildAt": "2026-10-09T16:25:34.271Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -78,6 +78,17 @@
       "startAt": "2026-10-09T00:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401898394/hawks-spurs",
       "publishedAt": "2026-10-09T09:22:37.332Z"
+    },
+    "401898395": {
+      "id": "401898395",
+      "seasonType": "NBA",
+      "home": "Dallas Mavericks",
+      "away": "Houston Rockets",
+      "homeScore": "117",
+      "awayScore": "135",
+      "startAt": "2026-10-09T12:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401898395/rockets-mavericks",
+      "publishedAt": "2026-10-09T16:25:34.271Z"
     },
     "401898716": {
       "id": "401898716",

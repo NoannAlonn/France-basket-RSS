@@ -5,8 +5,17 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml</link>
     <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>
     <language>fr</language>
-    <lastBuildDate>Fri, 09 Oct 2026 09:22:37 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 16:25:34 GMT</lastBuildDate>
     <generator>NBA RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final NBA — Houston Rockets 135–117 Dallas Mavericks</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401898395/rockets-mavericks</link>
+      <guid isPermaLink="false">nba-result-401898395</guid>
+      <pubDate>Fri, 09 Oct 2026 16:25:34 GMT</pubDate>
+      <description>Résultat final NBA : Houston Rockets 135–117 Dallas Mavericks. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
     <item>
       <title>Résultat final NBA — Atlanta Hawks 123–116 San Antonio Spurs</title>
       <link>https://www.espn.com/nba/game/_/gameId/401898394/hawks-spurs</link>
