@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-10-09T16:25:34.271Z",
+  "lastBuildAt": "2026-10-10T06:58:12.107Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -177,6 +177,17 @@
       "startAt": "2026-10-08T00:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401908939/suns-bulls",
       "publishedAt": "2026-10-08T02:53:07.247Z"
+    },
+    "401908940": {
+      "id": "401908940",
+      "seasonType": "NBA",
+      "home": "Chicago Bulls",
+      "away": "Memphis Grizzlies",
+      "homeScore": "100",
+      "awayScore": "104",
+      "startAt": "2026-10-10T00:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401908940/grizzlies-bulls",
+      "publishedAt": "2026-10-10T06:58:12.107Z"
     },
     "401908947": {
       "id": "401908947",
