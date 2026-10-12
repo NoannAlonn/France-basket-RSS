@@ -5,8 +5,26 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml</link>
     <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>
     <language>fr</language>
-    <lastBuildDate>Mon, 12 Oct 2026 01:13:32 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 07:26:53 GMT</lastBuildDate>
     <generator>NBA RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final NBA — Milwaukee Bucks 90–105 Charlotte Hornets</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401901821/bucks-hornets</link>
+      <guid isPermaLink="false">nba-result-401901821</guid>
+      <pubDate>Mon, 12 Oct 2026 07:26:53 GMT</pubDate>
+      <description>Résultat final NBA : Milwaukee Bucks 90–105 Charlotte Hornets. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — Chicago Bulls 128–133 Denver Nuggets</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401908941/bulls-nuggets</link>
+      <guid isPermaLink="false">nba-result-401908941</guid>
+      <pubDate>Mon, 12 Oct 2026 07:26:53 GMT</pubDate>
+      <description>Résultat final NBA : Chicago Bulls 128–133 Denver Nuggets. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
     <item>
       <title>Résultat final NBA — Orlando Magic 105–119 Cleveland Cavaliers</title>
       <link>https://www.espn.com/nba/game/_/gameId/401898401/magic-cavaliers</link>

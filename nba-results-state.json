@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-10-12T01:13:32.801Z",
+  "lastBuildAt": "2026-10-12T07:26:53.957Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -200,6 +200,17 @@
       "link": "https://www.espn.com/nba/game/_/gameId/401901820/nets-hornets",
       "publishedAt": "2026-10-07T05:50:15.019Z"
     },
+    "401901821": {
+      "id": "401901821",
+      "seasonType": "NBA",
+      "home": "Charlotte Hornets",
+      "away": "Milwaukee Bucks",
+      "homeScore": "105",
+      "awayScore": "90",
+      "startAt": "2026-10-11T23:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401901821/bucks-hornets",
+      "publishedAt": "2026-10-12T07:26:53.957Z"
+    },
     "401901823": {
       "id": "401901823",
       "seasonType": "NBA",
@@ -287,6 +298,17 @@
       "startAt": "2026-10-10T00:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401908940/grizzlies-bulls",
       "publishedAt": "2026-10-10T06:58:12.107Z"
+    },
+    "401908941": {
+      "id": "401908941",
+      "seasonType": "NBA",
+      "home": "Denver Nuggets",
+      "away": "Chicago Bulls",
+      "homeScore": "133",
+      "awayScore": "128",
+      "startAt": "2026-10-12T01:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401908941/bulls-nuggets",
+      "publishedAt": "2026-10-12T07:26:53.957Z"
     },
     "401908947": {
       "id": "401908947",
