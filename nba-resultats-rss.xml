@@ -5,8 +5,17 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml</link>
     <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>
     <language>fr</language>
-    <lastBuildDate>Sun, 11 Oct 2026 13:13:50 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 01:13:32 GMT</lastBuildDate>
     <generator>NBA RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final NBA — Orlando Magic 105–119 Cleveland Cavaliers</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401898401/magic-cavaliers</link>
+      <guid isPermaLink="false">nba-result-401898401</guid>
+      <pubDate>Mon, 12 Oct 2026 01:13:32 GMT</pubDate>
+      <description>Résultat final NBA : Orlando Magic 105–119 Cleveland Cavaliers. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
     <item>
       <title>Résultat final NBA — Dallas Mavericks 132–115 Houston Rockets</title>
       <link>https://www.espn.com/nba/game/_/gameId/401898400/mavericks-rockets</link>
