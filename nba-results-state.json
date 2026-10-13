@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-10-12T23:35:03.193Z",
+  "lastBuildAt": "2026-10-13T03:51:36.109Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -156,6 +156,17 @@
       "link": "https://www.espn.com/nba/game/_/gameId/401898401/magic-cavaliers",
       "publishedAt": "2026-10-12T01:13:32.801Z"
     },
+    "401898402": {
+      "id": "401898402",
+      "seasonType": "NBA",
+      "home": "Atlanta Hawks",
+      "away": "Oklahoma City Thunder",
+      "homeScore": "113",
+      "awayScore": "110",
+      "startAt": "2026-10-12T23:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401898402/thunder-hawks",
+      "publishedAt": "2026-10-13T03:51:36.109Z"
+    },
     "401898716": {
       "id": "401898716",
       "seasonType": "NBA",
@@ -189,6 +200,17 @@
       "link": "https://www.espn.com/nba/game/_/gameId/401898720/spurs-suns",
       "publishedAt": "2026-10-11T06:21:43.870Z"
     },
+    "401898721": {
+      "id": "401898721",
+      "seasonType": "NBA",
+      "home": "Utah Jazz",
+      "away": "San Antonio Spurs",
+      "homeScore": "119",
+      "awayScore": "109",
+      "startAt": "2026-10-13T01:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401898721/spurs-jazz",
+      "publishedAt": "2026-10-13T03:51:36.109Z"
+    },
     "401901820": {
       "id": "401901820",
       "seasonType": "NBA",
@@ -221,6 +243,17 @@
       "startAt": "2026-10-08T23:30:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401901823/76ers-nets",
       "publishedAt": "2026-10-09T02:20:38.063Z"
+    },
+    "401901824": {
+      "id": "401901824",
+      "seasonType": "NBA",
+      "home": "Washington Wizards",
+      "away": "Brooklyn Nets",
+      "homeScore": "122",
+      "awayScore": "131",
+      "startAt": "2026-10-12T23:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401901824/nets-wizards",
+      "publishedAt": "2026-10-13T03:51:36.109Z"
     },
     "401902644": {
       "id": "401902644",
@@ -353,6 +386,17 @@
       "startAt": "2026-10-07T23:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401914123/timberwolves-pacers",
       "publishedAt": "2026-10-08T02:53:07.247Z"
+    },
+    "401914124": {
+      "id": "401914124",
+      "seasonType": "NBA",
+      "home": "New York Knicks",
+      "away": "Minnesota Timberwolves",
+      "homeScore": "104",
+      "awayScore": "122",
+      "startAt": "2026-10-12T23:30:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401914124/timberwolves-knicks",
+      "publishedAt": "2026-10-13T03:51:36.109Z"
     },
     "401914127": {
       "id": "401914127",

@@ -5,8 +5,44 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml</link>
     <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>
     <language>fr</language>
-    <lastBuildDate>Mon, 12 Oct 2026 23:35:03 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 03:51:36 GMT</lastBuildDate>
     <generator>NBA RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final NBA — Oklahoma City Thunder 110–113 Atlanta Hawks</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401898402/thunder-hawks</link>
+      <guid isPermaLink="false">nba-result-401898402</guid>
+      <pubDate>Tue, 13 Oct 2026 03:51:36 GMT</pubDate>
+      <description>Résultat final NBA : Oklahoma City Thunder 110–113 Atlanta Hawks. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — San Antonio Spurs 109–119 Utah Jazz</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401898721/spurs-jazz</link>
+      <guid isPermaLink="false">nba-result-401898721</guid>
+      <pubDate>Tue, 13 Oct 2026 03:51:36 GMT</pubDate>
+      <description>Résultat final NBA : San Antonio Spurs 109–119 Utah Jazz. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — Brooklyn Nets 131–122 Washington Wizards</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401901824/nets-wizards</link>
+      <guid isPermaLink="false">nba-result-401901824</guid>
+      <pubDate>Tue, 13 Oct 2026 03:51:36 GMT</pubDate>
+      <description>Résultat final NBA : Brooklyn Nets 131–122 Washington Wizards. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — Minnesota Timberwolves 122–104 New York Knicks</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401914124/timberwolves-knicks</link>
+      <guid isPermaLink="false">nba-result-401914124</guid>
+      <pubDate>Tue, 13 Oct 2026 03:51:36 GMT</pubDate>
+      <description>Résultat final NBA : Minnesota Timberwolves 122–104 New York Knicks. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
     <item>
       <title>Résultat final NBA — London Lions 66–119 Portland Trail Blazers</title>
       <link>https://www.espn.com/nba/game/_/gameId/401914130/lions-trail-blazers</link>
