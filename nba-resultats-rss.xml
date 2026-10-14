@@ -5,8 +5,26 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml</link>
     <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>
     <language>fr</language>
-    <lastBuildDate>Tue, 13 Oct 2026 03:51:36 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 01:49:39 GMT</lastBuildDate>
     <generator>NBA RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final NBA — Cleveland Cavaliers 116–132 Orlando Magic</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401898403/cavaliers-magic</link>
+      <guid isPermaLink="false">nba-result-401898403</guid>
+      <pubDate>Wed, 14 Oct 2026 01:49:39 GMT</pubDate>
+      <description>Résultat final NBA : Cleveland Cavaliers 116–132 Orlando Magic. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — New York Knicks 98–148 Toronto Raptors</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401908944/knicks-raptors</link>
+      <guid isPermaLink="false">nba-result-401908944</guid>
+      <pubDate>Wed, 14 Oct 2026 01:49:39 GMT</pubDate>
+      <description>Résultat final NBA : New York Knicks 98–148 Toronto Raptors. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
     <item>
       <title>Résultat final NBA — Oklahoma City Thunder 110–113 Atlanta Hawks</title>
       <link>https://www.espn.com/nba/game/_/gameId/401898402/thunder-hawks</link>

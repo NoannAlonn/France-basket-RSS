@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-10-13T03:51:36.109Z",
+  "lastBuildAt": "2026-10-14T01:49:39.561Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -166,6 +166,17 @@
       "startAt": "2026-10-12T23:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401898402/thunder-hawks",
       "publishedAt": "2026-10-13T03:51:36.109Z"
+    },
+    "401898403": {
+      "id": "401898403",
+      "seasonType": "NBA",
+      "home": "Orlando Magic",
+      "away": "Cleveland Cavaliers",
+      "homeScore": "132",
+      "awayScore": "116",
+      "startAt": "2026-10-13T23:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401898403/cavaliers-magic",
+      "publishedAt": "2026-10-14T01:49:39.561Z"
     },
     "401898716": {
       "id": "401898716",
@@ -342,6 +353,17 @@
       "startAt": "2026-10-12T01:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401908941/bulls-nuggets",
       "publishedAt": "2026-10-12T07:26:53.957Z"
+    },
+    "401908944": {
+      "id": "401908944",
+      "seasonType": "NBA",
+      "home": "Toronto Raptors",
+      "away": "New York Knicks",
+      "homeScore": "148",
+      "awayScore": "98",
+      "startAt": "2026-10-13T23:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401908944/knicks-raptors",
+      "publishedAt": "2026-10-14T01:49:39.561Z"
     },
     "401908947": {
       "id": "401908947",
