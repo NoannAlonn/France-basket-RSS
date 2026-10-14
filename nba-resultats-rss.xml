@@ -5,8 +5,35 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml</link>
     <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>
     <language>fr</language>
-    <lastBuildDate>Wed, 14 Oct 2026 01:49:39 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 06:54:03 GMT</lastBuildDate>
     <generator>NBA RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final NBA — Golden State Warriors 101–89 Los Angeles Lakers</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401898718/warriors-lakers</link>
+      <guid isPermaLink="false">nba-result-401898718</guid>
+      <pubDate>Wed, 14 Oct 2026 06:54:03 GMT</pubDate>
+      <description>Résultat final NBA : Golden State Warriors 101–89 Los Angeles Lakers. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — Portland Trail Blazers 110–98 Sacramento Kings</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401901826/trail-blazers-kings</link>
+      <guid isPermaLink="false">nba-result-401901826</guid>
+      <pubDate>Wed, 14 Oct 2026 06:54:03 GMT</pubDate>
+      <description>Résultat final NBA : Portland Trail Blazers 110–98 Sacramento Kings. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — Indiana Pacers 112–114 Oklahoma City Thunder</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401908621/pacers-thunder</link>
+      <guid isPermaLink="false">nba-result-401908621</guid>
+      <pubDate>Wed, 14 Oct 2026 06:54:03 GMT</pubDate>
+      <description>Résultat final NBA : Indiana Pacers 112–114 Oklahoma City Thunder. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
     <item>
       <title>Résultat final NBA — Cleveland Cavaliers 116–132 Orlando Magic</title>
       <link>https://www.espn.com/nba/game/_/gameId/401898403/cavaliers-magic</link>
