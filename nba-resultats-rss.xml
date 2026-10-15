@@ -5,8 +5,62 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml</link>
     <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>
     <language>fr</language>
-    <lastBuildDate>Wed, 14 Oct 2026 06:54:03 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 03:13:24 GMT</lastBuildDate>
     <generator>NBA RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final NBA — Brooklyn Nets 128–144 Miami Heat</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401898404/nets-heat</link>
+      <guid isPermaLink="false">nba-result-401898404</guid>
+      <pubDate>Thu, 15 Oct 2026 03:13:24 GMT</pubDate>
+      <description>Résultat final NBA : Brooklyn Nets 128–144 Miami Heat. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — Charlotte Hornets 93–114 Boston Celtics</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401898405/hornets-celtics</link>
+      <guid isPermaLink="false">nba-result-401898405</guid>
+      <pubDate>Thu, 15 Oct 2026 03:13:24 GMT</pubDate>
+      <description>Résultat final NBA : Charlotte Hornets 93–114 Boston Celtics. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — Phoenix Suns 103–123 San Antonio Spurs</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401898722/suns-spurs</link>
+      <guid isPermaLink="false">nba-result-401898722</guid>
+      <pubDate>Thu, 15 Oct 2026 03:13:24 GMT</pubDate>
+      <description>Résultat final NBA : Phoenix Suns 103–123 San Antonio Spurs. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — New Orleans Pelicans 101–97 Dallas Mavericks</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401901825/pelicans-mavericks</link>
+      <guid isPermaLink="false">nba-result-401901825</guid>
+      <pubDate>Thu, 15 Oct 2026 03:13:24 GMT</pubDate>
+      <description>Résultat final NBA : New Orleans Pelicans 101–97 Dallas Mavericks. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — Chicago Bulls 125–104 Milwaukee Bucks</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401908942/bulls-bucks</link>
+      <guid isPermaLink="false">nba-result-401908942</guid>
+      <pubDate>Thu, 15 Oct 2026 03:13:24 GMT</pubDate>
+      <description>Résultat final NBA : Chicago Bulls 125–104 Milwaukee Bucks. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — Detroit Pistons 128–106 Minnesota Timberwolves</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401914125/pistons-timberwolves</link>
+      <guid isPermaLink="false">nba-result-401914125</guid>
+      <pubDate>Thu, 15 Oct 2026 03:13:24 GMT</pubDate>
+      <description>Résultat final NBA : Detroit Pistons 128–106 Minnesota Timberwolves. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
     <item>
       <title>Résultat final NBA — Golden State Warriors 101–89 Los Angeles Lakers</title>
       <link>https://www.espn.com/nba/game/_/gameId/401898718/warriors-lakers</link>
