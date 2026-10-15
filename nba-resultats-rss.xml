@@ -5,8 +5,17 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml</link>
     <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>
     <language>fr</language>
-    <lastBuildDate>Thu, 15 Oct 2026 03:13:24 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 08:25:19 GMT</lastBuildDate>
     <generator>NBA RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final NBA — Denver Nuggets 110–122 LA Clippers</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401918011/nuggets-clippers</link>
+      <guid isPermaLink="false">nba-result-401918011</guid>
+      <pubDate>Thu, 15 Oct 2026 08:25:19 GMT</pubDate>
+      <description>Résultat final NBA : Denver Nuggets 110–122 LA Clippers. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
     <item>
       <title>Résultat final NBA — Brooklyn Nets 128–144 Miami Heat</title>
       <link>https://www.espn.com/nba/game/_/gameId/401898404/nets-heat</link>
