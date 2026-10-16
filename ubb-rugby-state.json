@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-10-16T17:58:00.116Z",
+  "lastBuildAt": "2026-10-16T22:54:58.861Z",
   "matches": {
     "top14-11820": {
       "competition": "Top 14",
@@ -329,6 +329,20 @@
       "homeScore": "40",
       "awayScore": "10",
       "publishedAt": "2026-09-21T01:19:15.222Z"
+    },
+    "champions-293317": {
+      "competition": "Champions Cup",
+      "home": "Gloucester Rugby",
+      "away": "Union Bordeaux Bègles",
+      "startAt": "2026-10-16T19:00:00.000Z",
+      "channel": "Diffusion à confirmer",
+      "link": "https://www.epcrugby.com/fr/champions-cup/matchs/293317/actualite",
+      "source": "EPCR",
+      "announcedAt": "2026-08-25T19:56:08.134Z",
+      "remindedAt": "2026-10-16T17:58:00.116Z",
+      "homeScore": "36",
+      "awayScore": "36",
+      "publishedAt": "2026-10-16T22:54:58.861Z"
     }
   }
 }

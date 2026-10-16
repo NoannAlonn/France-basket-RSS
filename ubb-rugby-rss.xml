@@ -5,8 +5,17 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/ubb-rugby-rss.xml</link>
     <description>Résultats finaux, annonces de match et rappels deux heures avant pour l’Union Bordeaux Bègles masculine senior.</description>
     <language>fr</language>
-    <lastBuildDate>Fri, 16 Oct 2026 17:58:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 22:54:58 GMT</lastBuildDate>
     <generator>UBB RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final — UBB : Gloucester Rugby 36–36 Union Bordeaux Bègles</title>
+      <link>https://www.epcrugby.com/fr/champions-cup/matchs/293317/actualite</link>
+      <guid isPermaLink="false">ubb-resultat-champions-293317</guid>
+      <pubDate>Fri, 16 Oct 2026 22:54:58 GMT</pubDate>
+      <description>Résultat final : Gloucester Rugby 36–36 Union Bordeaux Bègles. Compétition : Champions Cup.</description>
+      <source url="https://www.epcrugby.com/fr/champions-cup/clubs/union-bordeaux-begles/calendrier-resultats">EPCR</source>
+    </item>
+
     <item>
       <title>Résultat final — UBB : Union Bordeaux-Bègles 40–10 Stade Français Paris</title>
       <link>https://top14.lnr.fr/feuille-de-match/2026-2027/j3/11834-bordeaux-begles-paris</link>
