@@ -5,8 +5,17 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/ubb-rugby-rss.xml</link>
     <description>Résultats finaux, annonces de match et rappels deux heures avant pour l’Union Bordeaux Bègles masculine senior.</description>
     <language>fr</language>
-    <lastBuildDate>Wed, 23 Sep 2026 12:25:40 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 17:58:00 GMT</lastBuildDate>
     <generator>UBB RSS sur GitHub</generator>
+    <item>
+      <title>Rappel — L’UBB joue dans environ 2 heures</title>
+      <link>https://www.epcrugby.com/fr/champions-cup/matchs/293317/actualite</link>
+      <guid isPermaLink="false">ubb-rappel-2h-champions-293317</guid>
+      <pubDate>Fri, 16 Oct 2026 17:58:00 GMT</pubDate>
+      <description>Gloucester Rugby – Union Bordeaux Bègles, vendredi 16 octobre 2026 à 21:00, Diffusion à confirmer. Compétition : Champions Cup. Préparez votre diffusion.</description>
+      <source url="https://www.epcrugby.com/fr/champions-cup/clubs/union-bordeaux-begles/calendrier-resultats">EPCR</source>
+    </item>
+
     <item>
       <title>Résultat final — UBB : Union Bordeaux-Bègles 40–10 Stade Français Paris</title>
       <link>https://top14.lnr.fr/feuille-de-match/2026-2027/j3/11834-bordeaux-begles-paris</link>
