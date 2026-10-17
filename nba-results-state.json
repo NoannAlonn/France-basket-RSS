@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-10-16T06:25:39.337Z",
+  "lastBuildAt": "2026-10-17T04:56:14.749Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -200,6 +200,50 @@
       "link": "https://www.espn.com/nba/game/_/gameId/401898405/hornets-celtics",
       "publishedAt": "2026-10-15T03:13:24.889Z"
     },
+    "401898406": {
+      "id": "401898406",
+      "seasonType": "NBA",
+      "home": "Orlando Magic",
+      "away": "Miami Heat",
+      "homeScore": "136",
+      "awayScore": "115",
+      "startAt": "2026-10-16T23:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401898406/heat-magic",
+      "publishedAt": "2026-10-17T04:56:14.749Z"
+    },
+    "401898407": {
+      "id": "401898407",
+      "seasonType": "NBA",
+      "home": "Philadelphia 76ers",
+      "away": "Boston Celtics",
+      "homeScore": "120",
+      "awayScore": "125",
+      "startAt": "2026-10-16T23:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401898407/celtics-76ers",
+      "publishedAt": "2026-10-17T04:56:14.749Z"
+    },
+    "401898408": {
+      "id": "401898408",
+      "seasonType": "NBA",
+      "home": "Dallas Mavericks",
+      "away": "Atlanta Hawks",
+      "homeScore": "111",
+      "awayScore": "135",
+      "startAt": "2026-10-17T00:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401898408/hawks-mavericks",
+      "publishedAt": "2026-10-17T04:56:14.749Z"
+    },
+    "401898409": {
+      "id": "401898409",
+      "seasonType": "NBA",
+      "home": "Golden State Warriors",
+      "away": "Portland Trail Blazers",
+      "homeScore": "128",
+      "awayScore": "118",
+      "startAt": "2026-10-17T02:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401898409/trail-blazers-warriors",
+      "publishedAt": "2026-10-17T04:56:14.749Z"
+    },
     "401898716": {
       "id": "401898716",
       "seasonType": "NBA",
@@ -266,6 +310,17 @@
       "link": "https://www.espn.com/nba/game/_/gameId/401898722/suns-spurs",
       "publishedAt": "2026-10-15T03:13:24.889Z"
     },
+    "401898843": {
+      "id": "401898843",
+      "seasonType": "NBA",
+      "home": "San Antonio Spurs",
+      "away": "Sacramento Kings",
+      "homeScore": "126",
+      "awayScore": "97",
+      "startAt": "2026-10-17T00:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401898843/kings-spurs",
+      "publishedAt": "2026-10-17T04:56:14.749Z"
+    },
     "401901820": {
       "id": "401901820",
       "seasonType": "NBA",
@@ -287,6 +342,17 @@
       "startAt": "2026-10-11T23:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401901821/bucks-hornets",
       "publishedAt": "2026-10-12T07:26:53.957Z"
+    },
+    "401901822": {
+      "id": "401901822",
+      "seasonType": "NBA",
+      "home": "Memphis Grizzlies",
+      "away": "Charlotte Hornets",
+      "homeScore": "117",
+      "awayScore": "98",
+      "startAt": "2026-10-17T00:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401901822/hornets-grizzlies",
+      "publishedAt": "2026-10-17T04:56:14.749Z"
     },
     "401901823": {
       "id": "401901823",
@@ -364,6 +430,17 @@
       "startAt": "2026-10-08T23:30:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401906508/wizards-knicks",
       "publishedAt": "2026-10-09T02:20:38.063Z"
+    },
+    "401906509": {
+      "id": "401906509",
+      "seasonType": "NBA",
+      "home": "New Orleans Pelicans",
+      "away": "Washington Wizards",
+      "homeScore": "107",
+      "awayScore": "106",
+      "startAt": "2026-10-17T00:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401906509/wizards-pelicans",
+      "publishedAt": "2026-10-17T04:56:14.749Z"
     },
     "401906510": {
       "id": "401906510",
@@ -453,6 +530,17 @@
       "link": "https://www.espn.com/nba/game/_/gameId/401908942/bulls-bucks",
       "publishedAt": "2026-10-15T03:13:24.889Z"
     },
+    "401908943": {
+      "id": "401908943",
+      "seasonType": "NBA",
+      "home": "Chicago Bulls",
+      "away": "Minnesota Timberwolves",
+      "homeScore": "133",
+      "awayScore": "116",
+      "startAt": "2026-10-17T00:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401908943/timberwolves-bulls",
+      "publishedAt": "2026-10-17T04:56:14.749Z"
+    },
     "401908944": {
       "id": "401908944",
       "seasonType": "NBA",
@@ -475,6 +563,17 @@
       "link": "https://www.espn.com/nba/game/_/gameId/401908945/raptors-knicks",
       "publishedAt": "2026-10-16T06:25:39.337Z"
     },
+    "401908946": {
+      "id": "401908946",
+      "seasonType": "NBA",
+      "home": "Detroit Pistons",
+      "away": "Toronto Raptors",
+      "homeScore": "129",
+      "awayScore": "125",
+      "startAt": "2026-10-16T23:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401908946/raptors-pistons",
+      "publishedAt": "2026-10-17T04:56:14.749Z"
+    },
     "401908947": {
       "id": "401908947",
       "seasonType": "NBA",
@@ -485,6 +584,17 @@
       "startAt": "2026-10-05T23:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401908947/suns-pistons",
       "publishedAt": "2026-10-06T08:18:48.343Z"
+    },
+    "401908948": {
+      "id": "401908948",
+      "seasonType": "NBA",
+      "home": "Phoenix Suns",
+      "away": "Utah Jazz",
+      "homeScore": "116",
+      "awayScore": "119",
+      "startAt": "2026-10-17T02:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401908948/jazz-suns",
+      "publishedAt": "2026-10-17T04:56:14.749Z"
     },
     "401914101": {
       "id": "401914101",
@@ -540,6 +650,17 @@
       "startAt": "2026-10-15T00:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401914125/pistons-timberwolves",
       "publishedAt": "2026-10-15T03:13:24.889Z"
+    },
+    "401914126": {
+      "id": "401914126",
+      "seasonType": "NBA",
+      "home": "Indiana Pacers",
+      "away": "Milwaukee Bucks",
+      "homeScore": "127",
+      "awayScore": "128",
+      "startAt": "2026-10-16T23:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401914126/bucks-pacers",
+      "publishedAt": "2026-10-17T04:56:14.749Z"
     },
     "401914127": {
       "id": "401914127",
