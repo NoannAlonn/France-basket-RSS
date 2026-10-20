@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-10-17T09:12:57.813Z",
+  "lastBuildAt": "2026-10-20T21:55:12.338Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -606,6 +606,17 @@
       "startAt": "2026-10-17T02:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401908948/jazz-suns",
       "publishedAt": "2026-10-17T04:56:14.749Z"
+    },
+    "401909088": {
+      "id": "401909088",
+      "seasonType": "NBA",
+      "home": "Detroit Pistons",
+      "away": "Boston Celtics",
+      "homeScore": "121",
+      "awayScore": "113",
+      "startAt": "2026-10-20T19:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909088/celtics-pistons",
+      "publishedAt": "2026-10-20T21:55:12.338Z"
     },
     "401914101": {
       "id": "401914101",
