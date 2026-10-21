@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-10-20T21:55:12.338Z",
+  "lastBuildAt": "2026-10-21T05:16:01.674Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -617,6 +617,28 @@
       "startAt": "2026-10-20T19:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401909088/celtics-pistons",
       "publishedAt": "2026-10-20T21:55:12.338Z"
+    },
+    "401909089": {
+      "id": "401909089",
+      "seasonType": "NBA",
+      "home": "New York Knicks",
+      "away": "Philadelphia 76ers",
+      "homeScore": "100",
+      "awayScore": "106",
+      "startAt": "2026-10-20T23:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909089/76ers-knicks",
+      "publishedAt": "2026-10-21T05:16:01.674Z"
+    },
+    "401909090": {
+      "id": "401909090",
+      "seasonType": "NBA",
+      "home": "San Antonio Spurs",
+      "away": "Oklahoma City Thunder",
+      "homeScore": "104",
+      "awayScore": "116",
+      "startAt": "2026-10-21T01:50:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909090/thunder-spurs",
+      "publishedAt": "2026-10-21T05:16:01.674Z"
     },
     "401914101": {
       "id": "401914101",
