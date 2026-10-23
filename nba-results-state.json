@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-10-23T06:32:38.993Z",
+  "lastBuildAt": "2026-10-23T23:16:36.610Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -782,6 +782,17 @@
       "startAt": "2026-10-22T02:30:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401909842/kings-clippers",
       "publishedAt": "2026-10-22T06:01:41.396Z"
+    },
+    "401909848": {
+      "id": "401909848",
+      "seasonType": "NBA",
+      "home": "Milwaukee Bucks",
+      "away": "Chicago Bulls",
+      "homeScore": "125",
+      "awayScore": "132",
+      "startAt": "2026-10-23T20:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909848/bulls-bucks",
+      "publishedAt": "2026-10-23T23:16:36.610Z"
     },
     "401914101": {
       "id": "401914101",
