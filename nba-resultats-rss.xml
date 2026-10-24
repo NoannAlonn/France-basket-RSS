@@ -5,8 +5,35 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml</link>
     <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>
     <language>fr</language>
-    <lastBuildDate>Fri, 23 Oct 2026 23:16:36 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 01:44:47 GMT</lastBuildDate>
     <generator>NBA RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final NBA — Atlanta Hawks 128–81 Charlotte Hornets</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401909843/hawks-hornets</link>
+      <guid isPermaLink="false">nba-result-401909843</guid>
+      <pubDate>Sat, 24 Oct 2026 01:44:47 GMT</pubDate>
+      <description>Résultat final NBA : Atlanta Hawks 128–81 Charlotte Hornets. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — Minnesota Timberwolves 115–93 Orlando Magic</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401909845/timberwolves-magic</link>
+      <guid isPermaLink="false">nba-result-401909845</guid>
+      <pubDate>Sat, 24 Oct 2026 01:44:47 GMT</pubDate>
+      <description>Résultat final NBA : Minnesota Timberwolves 115–93 Orlando Magic. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — Toronto Raptors 112–102 Washington Wizards</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401909846/raptors-wizards</link>
+      <guid isPermaLink="false">nba-result-401909846</guid>
+      <pubDate>Sat, 24 Oct 2026 01:44:47 GMT</pubDate>
+      <description>Résultat final NBA : Toronto Raptors 112–102 Washington Wizards. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
     <item>
       <title>Résultat final NBA — Chicago Bulls 132–125 Milwaukee Bucks</title>
       <link>https://www.espn.com/nba/game/_/gameId/401909848/bulls-bucks</link>
