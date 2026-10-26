@@ -5,8 +5,26 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml</link>
     <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>
     <language>fr</language>
-    <lastBuildDate>Sun, 25 Oct 2026 05:12:30 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 00:40:24 GMT</lastBuildDate>
     <generator>NBA RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final NBA — Los Angeles Lakers 132–123 Utah Jazz</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401909861/lakers-jazz</link>
+      <guid isPermaLink="false">nba-result-401909861</guid>
+      <pubDate>Mon, 26 Oct 2026 00:40:24 GMT</pubDate>
+      <description>Résultat final NBA : Los Angeles Lakers 132–123 Utah Jazz. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — Indiana Pacers 136–109 Brooklyn Nets</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401909862/pacers-nets</link>
+      <guid isPermaLink="false">nba-result-401909862</guid>
+      <pubDate>Mon, 26 Oct 2026 00:40:24 GMT</pubDate>
+      <description>Résultat final NBA : Indiana Pacers 136–109 Brooklyn Nets. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
     <item>
       <title>Résultat final NBA — Miami Heat 110–115 Charlotte Hornets</title>
       <link>https://www.espn.com/nba/game/_/gameId/401909853/heat-hornets</link>
