@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-10-26T00:40:24.183Z",
+  "lastBuildAt": "2026-10-26T05:22:48.789Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -1024,6 +1024,61 @@
       "startAt": "2026-10-25T22:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401909862/pacers-nets",
       "publishedAt": "2026-10-26T00:40:24.183Z"
+    },
+    "401909863": {
+      "id": "401909863",
+      "seasonType": "NBA",
+      "home": "New York Knicks",
+      "away": "Orlando Magic",
+      "homeScore": "102",
+      "awayScore": "111",
+      "startAt": "2026-10-25T23:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909863/magic-knicks",
+      "publishedAt": "2026-10-26T05:22:48.789Z"
+    },
+    "401909864": {
+      "id": "401909864",
+      "seasonType": "NBA",
+      "home": "Minnesota Timberwolves",
+      "away": "Toronto Raptors",
+      "homeScore": "117",
+      "awayScore": "94",
+      "startAt": "2026-10-25T23:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909864/raptors-timberwolves",
+      "publishedAt": "2026-10-26T05:22:48.789Z"
+    },
+    "401909865": {
+      "id": "401909865",
+      "seasonType": "NBA",
+      "home": "Oklahoma City Thunder",
+      "away": "LA Clippers",
+      "homeScore": "108",
+      "awayScore": "101",
+      "startAt": "2026-10-25T23:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909865/clippers-thunder",
+      "publishedAt": "2026-10-26T05:22:48.789Z"
+    },
+    "401909866": {
+      "id": "401909866",
+      "seasonType": "NBA",
+      "home": "Philadelphia 76ers",
+      "away": "Detroit Pistons",
+      "homeScore": "93",
+      "awayScore": "106",
+      "startAt": "2026-10-25T23:30:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909866/pistons-76ers",
+      "publishedAt": "2026-10-26T05:22:48.789Z"
+    },
+    "401909867": {
+      "id": "401909867",
+      "seasonType": "NBA",
+      "home": "Sacramento Kings",
+      "away": "Memphis Grizzlies",
+      "homeScore": "112",
+      "awayScore": "123",
+      "startAt": "2026-10-26T01:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909867/grizzlies-kings",
+      "publishedAt": "2026-10-26T05:22:48.789Z"
     },
     "401914101": {
       "id": "401914101",

@@ -5,8 +5,53 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml</link>
     <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>
     <language>fr</language>
-    <lastBuildDate>Mon, 26 Oct 2026 00:40:24 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 05:22:48 GMT</lastBuildDate>
     <generator>NBA RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final NBA — Orlando Magic 111–102 New York Knicks</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401909863/magic-knicks</link>
+      <guid isPermaLink="false">nba-result-401909863</guid>
+      <pubDate>Mon, 26 Oct 2026 05:22:48 GMT</pubDate>
+      <description>Résultat final NBA : Orlando Magic 111–102 New York Knicks. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — Toronto Raptors 94–117 Minnesota Timberwolves</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401909864/raptors-timberwolves</link>
+      <guid isPermaLink="false">nba-result-401909864</guid>
+      <pubDate>Mon, 26 Oct 2026 05:22:48 GMT</pubDate>
+      <description>Résultat final NBA : Toronto Raptors 94–117 Minnesota Timberwolves. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — LA Clippers 101–108 Oklahoma City Thunder</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401909865/clippers-thunder</link>
+      <guid isPermaLink="false">nba-result-401909865</guid>
+      <pubDate>Mon, 26 Oct 2026 05:22:48 GMT</pubDate>
+      <description>Résultat final NBA : LA Clippers 101–108 Oklahoma City Thunder. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — Detroit Pistons 106–93 Philadelphia 76ers</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401909866/pistons-76ers</link>
+      <guid isPermaLink="false">nba-result-401909866</guid>
+      <pubDate>Mon, 26 Oct 2026 05:22:48 GMT</pubDate>
+      <description>Résultat final NBA : Detroit Pistons 106–93 Philadelphia 76ers. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — Memphis Grizzlies 123–112 Sacramento Kings</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401909867/grizzlies-kings</link>
+      <guid isPermaLink="false">nba-result-401909867</guid>
+      <pubDate>Mon, 26 Oct 2026 05:22:48 GMT</pubDate>
+      <description>Résultat final NBA : Memphis Grizzlies 123–112 Sacramento Kings. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
     <item>
       <title>Résultat final NBA — Los Angeles Lakers 132–123 Utah Jazz</title>
       <link>https://www.espn.com/nba/game/_/gameId/401909861/lakers-jazz</link>
