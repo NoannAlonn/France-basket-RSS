@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-10-26T05:22:48.789Z",
+  "lastBuildAt": "2026-10-27T06:11:13.848Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -1079,6 +1079,105 @@
       "startAt": "2026-10-26T01:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401909867/grizzlies-kings",
       "publishedAt": "2026-10-26T05:22:48.789Z"
+    },
+    "401909868": {
+      "id": "401909868",
+      "seasonType": "NBA",
+      "home": "Charlotte Hornets",
+      "away": "Washington Wizards",
+      "homeScore": "110",
+      "awayScore": "103",
+      "startAt": "2026-10-26T23:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909868/wizards-hornets",
+      "publishedAt": "2026-10-27T06:11:13.848Z"
+    },
+    "401909869": {
+      "id": "401909869",
+      "seasonType": "NBA",
+      "home": "Cleveland Cavaliers",
+      "away": "Minnesota Timberwolves",
+      "homeScore": "127",
+      "awayScore": "125",
+      "startAt": "2026-10-26T23:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909869/timberwolves-cavaliers",
+      "publishedAt": "2026-10-27T06:11:13.848Z"
+    },
+    "401909870": {
+      "id": "401909870",
+      "seasonType": "NBA",
+      "home": "Boston Celtics",
+      "away": "Chicago Bulls",
+      "homeScore": "134",
+      "awayScore": "99",
+      "startAt": "2026-10-26T23:30:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909870/bulls-celtics",
+      "publishedAt": "2026-10-27T06:11:13.848Z"
+    },
+    "401909871": {
+      "id": "401909871",
+      "seasonType": "NBA",
+      "home": "Miami Heat",
+      "away": "Dallas Mavericks",
+      "homeScore": "109",
+      "awayScore": "113",
+      "startAt": "2026-10-26T23:30:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909871/mavericks-heat",
+      "publishedAt": "2026-10-27T06:11:13.848Z"
+    },
+    "401909872": {
+      "id": "401909872",
+      "seasonType": "NBA",
+      "home": "Milwaukee Bucks",
+      "away": "Indiana Pacers",
+      "homeScore": "110",
+      "awayScore": "102",
+      "startAt": "2026-10-27T00:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909872/pacers-bucks",
+      "publishedAt": "2026-10-27T06:11:13.848Z"
+    },
+    "401909873": {
+      "id": "401909873",
+      "seasonType": "NBA",
+      "home": "Oklahoma City Thunder",
+      "away": "Phoenix Suns",
+      "homeScore": "125",
+      "awayScore": "114",
+      "startAt": "2026-10-27T00:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909873/suns-thunder",
+      "publishedAt": "2026-10-27T06:11:13.848Z"
+    },
+    "401909874": {
+      "id": "401909874",
+      "seasonType": "NBA",
+      "home": "Houston Rockets",
+      "away": "Atlanta Hawks",
+      "homeScore": "120",
+      "awayScore": "110",
+      "startAt": "2026-10-27T00:30:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909874/hawks-rockets",
+      "publishedAt": "2026-10-27T06:11:13.848Z"
+    },
+    "401909875": {
+      "id": "401909875",
+      "seasonType": "NBA",
+      "home": "Utah Jazz",
+      "away": "Memphis Grizzlies",
+      "homeScore": "105",
+      "awayScore": "110",
+      "startAt": "2026-10-27T01:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909875/grizzlies-jazz",
+      "publishedAt": "2026-10-27T06:11:13.848Z"
+    },
+    "401909876": {
+      "id": "401909876",
+      "seasonType": "NBA",
+      "home": "Denver Nuggets",
+      "away": "Golden State Warriors",
+      "homeScore": "114",
+      "awayScore": "134",
+      "startAt": "2026-10-27T02:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909876/warriors-nuggets",
+      "publishedAt": "2026-10-27T06:11:13.848Z"
     },
     "401914101": {
       "id": "401914101",
