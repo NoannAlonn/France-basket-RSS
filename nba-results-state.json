@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-10-29T02:50:56.175Z",
+  "lastBuildAt": "2026-10-29T09:10:48.443Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -1321,6 +1321,39 @@
       "startAt": "2026-10-29T00:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401909889/nuggets-pelicans",
       "publishedAt": "2026-10-29T02:50:56.175Z"
+    },
+    "401909890": {
+      "id": "401909890",
+      "seasonType": "NBA",
+      "home": "Utah Jazz",
+      "away": "San Antonio Spurs",
+      "homeScore": "111",
+      "awayScore": "117",
+      "startAt": "2026-10-29T01:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909890/spurs-jazz",
+      "publishedAt": "2026-10-29T09:10:48.443Z"
+    },
+    "401909891": {
+      "id": "401909891",
+      "seasonType": "NBA",
+      "home": "Dallas Mavericks",
+      "away": "Oklahoma City Thunder",
+      "homeScore": "120",
+      "awayScore": "96",
+      "startAt": "2026-10-29T01:30:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909891/thunder-mavericks",
+      "publishedAt": "2026-10-29T09:10:48.443Z"
+    },
+    "401909892": {
+      "id": "401909892",
+      "seasonType": "NBA",
+      "home": "LA Clippers",
+      "away": "Los Angeles Lakers",
+      "homeScore": "87",
+      "awayScore": "103",
+      "startAt": "2026-10-29T02:30:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909892/lakers-clippers",
+      "publishedAt": "2026-10-29T09:10:48.443Z"
     },
     "401914101": {
       "id": "401914101",
