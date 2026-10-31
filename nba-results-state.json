@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-10-30T07:01:25.781Z",
+  "lastBuildAt": "2026-10-31T02:17:45.109Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -705,6 +705,61 @@
       "startAt": "2026-10-24T01:30:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401909096/rockets-spurs",
       "publishedAt": "2026-10-24T06:32:49.349Z"
+    },
+    "401909277": {
+      "id": "401909277",
+      "seasonType": "NBA",
+      "home": "Washington Wizards",
+      "away": "Charlotte Hornets",
+      "homeScore": "95",
+      "awayScore": "79",
+      "startAt": "2026-10-30T23:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909277/hornets-wizards",
+      "publishedAt": "2026-10-31T02:17:45.109Z"
+    },
+    "401909278": {
+      "id": "401909278",
+      "seasonType": "NBA",
+      "home": "Boston Celtics",
+      "away": "Chicago Bulls",
+      "homeScore": "125",
+      "awayScore": "111",
+      "startAt": "2026-10-30T23:30:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909278/bulls-celtics",
+      "publishedAt": "2026-10-31T02:17:45.109Z"
+    },
+    "401909279": {
+      "id": "401909279",
+      "seasonType": "NBA",
+      "home": "Brooklyn Nets",
+      "away": "Detroit Pistons",
+      "homeScore": "94",
+      "awayScore": "110",
+      "startAt": "2026-10-30T23:30:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909279/pistons-nets",
+      "publishedAt": "2026-10-31T02:17:45.109Z"
+    },
+    "401909280": {
+      "id": "401909280",
+      "seasonType": "NBA",
+      "home": "Philadelphia 76ers",
+      "away": "New York Knicks",
+      "homeScore": "98",
+      "awayScore": "93",
+      "startAt": "2026-10-30T23:30:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909280/knicks-76ers",
+      "publishedAt": "2026-10-31T02:17:45.109Z"
+    },
+    "401909281": {
+      "id": "401909281",
+      "seasonType": "NBA",
+      "home": "Toronto Raptors",
+      "away": "Orlando Magic",
+      "homeScore": "114",
+      "awayScore": "121",
+      "startAt": "2026-10-30T23:30:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909281/magic-raptors",
+      "publishedAt": "2026-10-31T02:17:45.109Z"
     },
     "401909834": {
       "id": "401909834",
