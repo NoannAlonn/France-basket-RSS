@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-10-31T08:36:14.719Z",
+  "lastBuildAt": "2026-10-31T22:20:55.595Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -1497,6 +1497,17 @@
       "startAt": "2026-10-30T02:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401909895/grizzlies-trail-blazers",
       "publishedAt": "2026-10-30T07:01:25.781Z"
+    },
+    "401909896": {
+      "id": "401909896",
+      "seasonType": "NBA",
+      "home": "Utah Jazz",
+      "away": "Portland Trail Blazers",
+      "homeScore": "90",
+      "awayScore": "112",
+      "startAt": "2026-10-31T19:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909896/trail-blazers-jazz",
+      "publishedAt": "2026-10-31T22:20:55.595Z"
     },
     "401914101": {
       "id": "401914101",
