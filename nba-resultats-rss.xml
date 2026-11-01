@@ -5,8 +5,17 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml</link>
     <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>
     <language>fr</language>
-    <lastBuildDate>Sat, 31 Oct 2026 22:20:55 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 01:18:41 GMT</lastBuildDate>
     <generator>NBA RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final NBA — Philadelphia 76ers 109–104 Charlotte Hornets</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401909897/76ers-hornets</link>
+      <guid isPermaLink="false">nba-result-401909897</guid>
+      <pubDate>Sun, 01 Nov 2026 01:18:41 GMT</pubDate>
+      <description>Résultat final NBA : Philadelphia 76ers 109–104 Charlotte Hornets. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
     <item>
       <title>Résultat final NBA — Portland Trail Blazers 112–90 Utah Jazz</title>
       <link>https://www.espn.com/nba/game/_/gameId/401909896/trail-blazers-jazz</link>
@@ -1075,15 +1084,6 @@
       <guid isPermaLink="false">nba-result-401898397</guid>
       <pubDate>Sun, 11 Oct 2026 06:21:43 GMT</pubDate>
       <description>Résultat final NBA : Minnesota Timberwolves 125–124 Miami Heat. NBA.</description>
-      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
-    </item>
-
-    <item>
-      <title>Résultat final NBA — Philadelphia 76ers 106–144 Boston Celtics</title>
-      <link>https://www.espn.com/nba/game/_/gameId/401898398/76ers-celtics</link>
-      <guid isPermaLink="false">nba-result-401898398</guid>
-      <pubDate>Sun, 11 Oct 2026 06:21:43 GMT</pubDate>
-      <description>Résultat final NBA : Philadelphia 76ers 106–144 Boston Celtics. NBA.</description>
       <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
     </item>
   </channel>
