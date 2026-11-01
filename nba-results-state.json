@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-11-01T01:18:41.936Z",
+  "lastBuildAt": "2026-11-01T07:44:08.974Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -1519,6 +1519,61 @@
       "startAt": "2026-10-31T22:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401909897/76ers-hornets",
       "publishedAt": "2026-11-01T01:18:41.936Z"
+    },
+    "401909898": {
+      "id": "401909898",
+      "seasonType": "NBA",
+      "home": "New Orleans Pelicans",
+      "away": "Atlanta Hawks",
+      "homeScore": "121",
+      "awayScore": "99",
+      "startAt": "2026-10-31T23:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909898/hawks-pelicans",
+      "publishedAt": "2026-11-01T07:44:08.974Z"
+    },
+    "401909899": {
+      "id": "401909899",
+      "seasonType": "NBA",
+      "home": "Memphis Grizzlies",
+      "away": "Sacramento Kings",
+      "homeScore": "136",
+      "awayScore": "105",
+      "startAt": "2026-11-01T00:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909899/kings-grizzlies",
+      "publishedAt": "2026-11-01T07:44:08.974Z"
+    },
+    "401909900": {
+      "id": "401909900",
+      "seasonType": "NBA",
+      "home": "Milwaukee Bucks",
+      "away": "Cleveland Cavaliers",
+      "homeScore": "111",
+      "awayScore": "136",
+      "startAt": "2026-11-01T00:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909900/cavaliers-bucks",
+      "publishedAt": "2026-11-01T07:44:08.974Z"
+    },
+    "401909901": {
+      "id": "401909901",
+      "seasonType": "NBA",
+      "home": "San Antonio Spurs",
+      "away": "Minnesota Timberwolves",
+      "homeScore": "121",
+      "awayScore": "111",
+      "startAt": "2026-11-01T00:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909901/timberwolves-spurs",
+      "publishedAt": "2026-11-01T07:44:08.974Z"
+    },
+    "401909902": {
+      "id": "401909902",
+      "seasonType": "NBA",
+      "home": "Houston Rockets",
+      "away": "Oklahoma City Thunder",
+      "homeScore": "119",
+      "awayScore": "98",
+      "startAt": "2026-11-01T00:30:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909902/thunder-rockets",
+      "publishedAt": "2026-11-01T07:44:08.974Z"
     },
     "401914101": {
       "id": "401914101",
