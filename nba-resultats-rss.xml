@@ -5,8 +5,26 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml</link>
     <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>
     <language>fr</language>
-    <lastBuildDate>Sun, 01 Nov 2026 07:44:08 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 01:59:29 GMT</lastBuildDate>
     <generator>NBA RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final NBA — Boston Celtics 108–97 Orlando Magic</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401909903/celtics-magic</link>
+      <guid isPermaLink="false">nba-result-401909903</guid>
+      <pubDate>Mon, 02 Nov 2026 01:59:29 GMT</pubDate>
+      <description>Résultat final NBA : Boston Celtics 108–97 Orlando Magic. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — Brooklyn Nets 98–90 Indiana Pacers</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401909904/nets-pacers</link>
+      <guid isPermaLink="false">nba-result-401909904</guid>
+      <pubDate>Mon, 02 Nov 2026 01:59:29 GMT</pubDate>
+      <description>Résultat final NBA : Brooklyn Nets 98–90 Indiana Pacers. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
     <item>
       <title>Résultat final NBA — Atlanta Hawks 99–121 New Orleans Pelicans</title>
       <link>https://www.espn.com/nba/game/_/gameId/401909898/hawks-pelicans</link>
@@ -1066,24 +1084,6 @@
       <guid isPermaLink="false">nba-result-401914124</guid>
       <pubDate>Tue, 13 Oct 2026 03:51:36 GMT</pubDate>
       <description>Résultat final NBA : Minnesota Timberwolves 122–104 New York Knicks. NBA.</description>
-      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
-    </item>
-
-    <item>
-      <title>Résultat final NBA — London Lions 66–119 Portland Trail Blazers</title>
-      <link>https://www.espn.com/nba/game/_/gameId/401914130/lions-trail-blazers</link>
-      <guid isPermaLink="false">nba-result-401914130</guid>
-      <pubDate>Mon, 12 Oct 2026 23:35:03 GMT</pubDate>
-      <description>Résultat final NBA : London Lions 66–119 Portland Trail Blazers. NBA.</description>
-      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
-    </item>
-
-    <item>
-      <title>Résultat final NBA — Milwaukee Bucks 90–105 Charlotte Hornets</title>
-      <link>https://www.espn.com/nba/game/_/gameId/401901821/bucks-hornets</link>
-      <guid isPermaLink="false">nba-result-401901821</guid>
-      <pubDate>Mon, 12 Oct 2026 07:26:53 GMT</pubDate>
-      <description>Résultat final NBA : Milwaukee Bucks 90–105 Charlotte Hornets. NBA.</description>
       <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
     </item>
   </channel>

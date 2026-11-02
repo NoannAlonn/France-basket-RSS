@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-11-01T07:44:08.974Z",
+  "lastBuildAt": "2026-11-02T01:59:29.270Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -1574,6 +1574,28 @@
       "startAt": "2026-11-01T00:30:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401909902/thunder-rockets",
       "publishedAt": "2026-11-01T07:44:08.974Z"
+    },
+    "401909903": {
+      "id": "401909903",
+      "seasonType": "NBA",
+      "home": "Orlando Magic",
+      "away": "Boston Celtics",
+      "homeScore": "97",
+      "awayScore": "108",
+      "startAt": "2026-11-01T20:30:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909903/celtics-magic",
+      "publishedAt": "2026-11-02T01:59:29.270Z"
+    },
+    "401909904": {
+      "id": "401909904",
+      "seasonType": "NBA",
+      "home": "Indiana Pacers",
+      "away": "Brooklyn Nets",
+      "homeScore": "90",
+      "awayScore": "98",
+      "startAt": "2026-11-01T22:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909904/nets-pacers",
+      "publishedAt": "2026-11-02T01:59:29.270Z"
     },
     "401914101": {
       "id": "401914101",
