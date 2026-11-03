@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-11-02T09:20:01.666Z",
+  "lastBuildAt": "2026-11-03T08:50:04.743Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -1618,6 +1618,171 @@
       "startAt": "2026-11-02T02:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401909906/raptors-lakers",
       "publishedAt": "2026-11-02T09:20:01.666Z"
+    },
+    "401909907": {
+      "id": "401909907",
+      "seasonType": "NBA",
+      "home": "Cleveland Cavaliers",
+      "away": "Oklahoma City Thunder",
+      "homeScore": "112",
+      "awayScore": "117",
+      "startAt": "2026-11-03T00:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909907/thunder-cavaliers",
+      "publishedAt": "2026-11-03T08:50:04.743Z"
+    },
+    "401909908": {
+      "id": "401909908",
+      "seasonType": "NBA",
+      "home": "Charlotte Hornets",
+      "away": "Detroit Pistons",
+      "homeScore": "91",
+      "awayScore": "124",
+      "startAt": "2026-11-03T00:30:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909908/pistons-hornets",
+      "publishedAt": "2026-11-03T08:50:04.743Z"
+    },
+    "401909909": {
+      "id": "401909909",
+      "seasonType": "NBA",
+      "home": "Indiana Pacers",
+      "away": "Atlanta Hawks",
+      "homeScore": "104",
+      "awayScore": "108",
+      "startAt": "2026-11-03T00:30:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909909/hawks-pacers",
+      "publishedAt": "2026-11-03T08:50:04.743Z"
+    },
+    "401909910": {
+      "id": "401909910",
+      "seasonType": "NBA",
+      "home": "New York Knicks",
+      "away": "Brooklyn Nets",
+      "homeScore": "103",
+      "awayScore": "90",
+      "startAt": "2026-11-03T00:30:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909910/nets-knicks",
+      "publishedAt": "2026-11-03T08:50:04.743Z"
+    },
+    "401909911": {
+      "id": "401909911",
+      "seasonType": "NBA",
+      "home": "Orlando Magic",
+      "away": "Washington Wizards",
+      "homeScore": "94",
+      "awayScore": "103",
+      "startAt": "2026-11-03T00:30:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909911/wizards-magic",
+      "publishedAt": "2026-11-03T08:50:04.743Z"
+    },
+    "401909912": {
+      "id": "401909912",
+      "seasonType": "NBA",
+      "home": "Philadelphia 76ers",
+      "away": "Chicago Bulls",
+      "homeScore": "126",
+      "awayScore": "107",
+      "startAt": "2026-11-03T00:30:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909912/bulls-76ers",
+      "publishedAt": "2026-11-03T08:50:04.743Z"
+    },
+    "401909913": {
+      "id": "401909913",
+      "seasonType": "NBA",
+      "home": "Dallas Mavericks",
+      "away": "Sacramento Kings",
+      "homeScore": "100",
+      "awayScore": "115",
+      "startAt": "2026-11-03T01:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909913/kings-mavericks",
+      "publishedAt": "2026-11-03T08:50:04.743Z"
+    },
+    "401909914": {
+      "id": "401909914",
+      "seasonType": "NBA",
+      "home": "Memphis Grizzlies",
+      "away": "New Orleans Pelicans",
+      "homeScore": "134",
+      "awayScore": "135",
+      "startAt": "2026-11-03T01:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909914/pelicans-grizzlies",
+      "publishedAt": "2026-11-03T08:50:04.743Z"
+    },
+    "401909915": {
+      "id": "401909915",
+      "seasonType": "NBA",
+      "home": "Minnesota Timberwolves",
+      "away": "Milwaukee Bucks",
+      "homeScore": "112",
+      "awayScore": "100",
+      "startAt": "2026-11-03T01:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909915/bucks-timberwolves",
+      "publishedAt": "2026-11-03T08:50:04.743Z"
+    },
+    "401909916": {
+      "id": "401909916",
+      "seasonType": "NBA",
+      "home": "Houston Rockets",
+      "away": "Boston Celtics",
+      "homeScore": "109",
+      "awayScore": "93",
+      "startAt": "2026-11-03T01:30:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909916/celtics-rockets",
+      "publishedAt": "2026-11-03T08:50:04.743Z"
+    },
+    "401909917": {
+      "id": "401909917",
+      "seasonType": "NBA",
+      "home": "San Antonio Spurs",
+      "away": "Utah Jazz",
+      "homeScore": "119",
+      "awayScore": "97",
+      "startAt": "2026-11-03T01:30:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909917/jazz-spurs",
+      "publishedAt": "2026-11-03T08:50:04.743Z"
+    },
+    "401909918": {
+      "id": "401909918",
+      "seasonType": "NBA",
+      "home": "Denver Nuggets",
+      "away": "Portland Trail Blazers",
+      "homeScore": "110",
+      "awayScore": "118",
+      "startAt": "2026-11-03T02:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909918/trail-blazers-nuggets",
+      "publishedAt": "2026-11-03T08:50:04.743Z"
+    },
+    "401909919": {
+      "id": "401909919",
+      "seasonType": "NBA",
+      "home": "Golden State Warriors",
+      "away": "Phoenix Suns",
+      "homeScore": "116",
+      "awayScore": "113",
+      "startAt": "2026-11-03T03:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909919/suns-warriors",
+      "publishedAt": "2026-11-03T08:50:04.743Z"
+    },
+    "401909920": {
+      "id": "401909920",
+      "seasonType": "NBA",
+      "home": "LA Clippers",
+      "away": "Toronto Raptors",
+      "homeScore": "118",
+      "awayScore": "125",
+      "startAt": "2026-11-03T03:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909920/raptors-clippers",
+      "publishedAt": "2026-11-03T08:50:04.743Z"
+    },
+    "401909921": {
+      "id": "401909921",
+      "seasonType": "NBA",
+      "home": "Los Angeles Lakers",
+      "away": "Miami Heat",
+      "homeScore": "138",
+      "awayScore": "117",
+      "startAt": "2026-11-03T03:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909921/heat-lakers",
+      "publishedAt": "2026-11-03T08:50:04.743Z"
     },
     "401914101": {
       "id": "401914101",
