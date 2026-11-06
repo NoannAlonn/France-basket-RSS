@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-11-05T10:43:48.970Z",
+  "lastBuildAt": "2026-11-06T11:35:57.128Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -1937,6 +1937,28 @@
       "startAt": "2026-11-05T03:30:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401909935/heat-clippers",
       "publishedAt": "2026-11-05T10:43:48.970Z"
+    },
+    "401909936": {
+      "id": "401909936",
+      "seasonType": "NBA",
+      "home": "Phoenix Suns",
+      "away": "Orlando Magic",
+      "homeScore": "117",
+      "awayScore": "104",
+      "startAt": "2026-11-06T02:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909936/magic-suns",
+      "publishedAt": "2026-11-06T11:35:57.128Z"
+    },
+    "401909937": {
+      "id": "401909937",
+      "seasonType": "NBA",
+      "home": "Golden State Warriors",
+      "away": "Miami Heat",
+      "homeScore": "120",
+      "awayScore": "100",
+      "startAt": "2026-11-06T03:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909937/heat-warriors",
+      "publishedAt": "2026-11-06T11:35:57.128Z"
     },
     "401914101": {
       "id": "401914101",

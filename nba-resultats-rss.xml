@@ -5,8 +5,26 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml</link>
     <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>
     <language>fr</language>
-    <lastBuildDate>Thu, 05 Nov 2026 10:43:48 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 11:35:57 GMT</lastBuildDate>
     <generator>NBA RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final NBA — Orlando Magic 104–117 Phoenix Suns</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401909936/magic-suns</link>
+      <guid isPermaLink="false">nba-result-401909936</guid>
+      <pubDate>Fri, 06 Nov 2026 11:35:57 GMT</pubDate>
+      <description>Résultat final NBA : Orlando Magic 104–117 Phoenix Suns. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — Miami Heat 100–120 Golden State Warriors</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401909937/heat-warriors</link>
+      <guid isPermaLink="false">nba-result-401909937</guid>
+      <pubDate>Fri, 06 Nov 2026 11:35:57 GMT</pubDate>
+      <description>Résultat final NBA : Miami Heat 100–120 Golden State Warriors. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
     <item>
       <title>Résultat final NBA — Charlotte Hornets 104–114 Brooklyn Nets</title>
       <link>https://www.espn.com/nba/game/_/gameId/401909925/hornets-nets</link>
@@ -1066,24 +1084,6 @@
       <guid isPermaLink="false">nba-result-401909842</guid>
       <pubDate>Thu, 22 Oct 2026 06:01:41 GMT</pubDate>
       <description>Résultat final NBA : Sacramento Kings 96–121 LA Clippers. NBA.</description>
-      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
-    </item>
-
-    <item>
-      <title>Résultat final NBA — Philadelphia 76ers 106–100 New York Knicks</title>
-      <link>https://www.espn.com/nba/game/_/gameId/401909089/76ers-knicks</link>
-      <guid isPermaLink="false">nba-result-401909089</guid>
-      <pubDate>Wed, 21 Oct 2026 05:16:01 GMT</pubDate>
-      <description>Résultat final NBA : Philadelphia 76ers 106–100 New York Knicks. NBA.</description>
-      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
-    </item>
-
-    <item>
-      <title>Résultat final NBA — Oklahoma City Thunder 116–104 San Antonio Spurs</title>
-      <link>https://www.espn.com/nba/game/_/gameId/401909090/thunder-spurs</link>
-      <guid isPermaLink="false">nba-result-401909090</guid>
-      <pubDate>Wed, 21 Oct 2026 05:16:01 GMT</pubDate>
-      <description>Résultat final NBA : Oklahoma City Thunder 116–104 San Antonio Spurs. NBA.</description>
       <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
     </item>
   </channel>
