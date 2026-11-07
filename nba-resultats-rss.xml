@@ -5,8 +5,26 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml</link>
     <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>
     <language>fr</language>
-    <lastBuildDate>Fri, 06 Nov 2026 11:35:57 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 03:09:18 GMT</lastBuildDate>
     <generator>NBA RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final NBA — Washington Wizards 132–139 Atlanta Hawks</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401909287/wizards-hawks</link>
+      <guid isPermaLink="false">nba-result-401909287</guid>
+      <pubDate>Sat, 07 Nov 2026 03:09:18 GMT</pubDate>
+      <description>Résultat final NBA : Washington Wizards 132–139 Atlanta Hawks. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — Boston Celtics 119–80 Charlotte Hornets</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401909288/celtics-hornets</link>
+      <guid isPermaLink="false">nba-result-401909288</guid>
+      <pubDate>Sat, 07 Nov 2026 03:09:18 GMT</pubDate>
+      <description>Résultat final NBA : Boston Celtics 119–80 Charlotte Hornets. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
     <item>
       <title>Résultat final NBA — Orlando Magic 104–117 Phoenix Suns</title>
       <link>https://www.espn.com/nba/game/_/gameId/401909936/magic-suns</link>
@@ -1066,24 +1084,6 @@
       <guid isPermaLink="false">nba-result-401909840</guid>
       <pubDate>Thu, 22 Oct 2026 06:01:41 GMT</pubDate>
       <description>Résultat final NBA : Dallas Mavericks 110–128 Houston Rockets. NBA.</description>
-      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
-    </item>
-
-    <item>
-      <title>Résultat final NBA — Phoenix Suns 83–124 Portland Trail Blazers</title>
-      <link>https://www.espn.com/nba/game/_/gameId/401909841/suns-trail-blazers</link>
-      <guid isPermaLink="false">nba-result-401909841</guid>
-      <pubDate>Thu, 22 Oct 2026 06:01:41 GMT</pubDate>
-      <description>Résultat final NBA : Phoenix Suns 83–124 Portland Trail Blazers. NBA.</description>
-      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
-    </item>
-
-    <item>
-      <title>Résultat final NBA — Sacramento Kings 96–121 LA Clippers</title>
-      <link>https://www.espn.com/nba/game/_/gameId/401909842/kings-clippers</link>
-      <guid isPermaLink="false">nba-result-401909842</guid>
-      <pubDate>Thu, 22 Oct 2026 06:01:41 GMT</pubDate>
-      <description>Résultat final NBA : Sacramento Kings 96–121 LA Clippers. NBA.</description>
       <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
     </item>
   </channel>
