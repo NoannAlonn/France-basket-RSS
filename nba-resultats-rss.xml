@@ -5,8 +5,17 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml</link>
     <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>
     <language>fr</language>
-    <lastBuildDate>Sun, 08 Nov 2026 11:36:38 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 00:59:27 GMT</lastBuildDate>
     <generator>NBA RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final NBA — Philadelphia 76ers 127–121 Chicago Bulls</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401909945/76ers-bulls</link>
+      <guid isPermaLink="false">nba-result-401909945</guid>
+      <pubDate>Mon, 09 Nov 2026 00:59:27 GMT</pubDate>
+      <description>Résultat final NBA : Philadelphia 76ers 127–121 Chicago Bulls. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
     <item>
       <title>Résultat final NBA — San Antonio Spurs 125–103 Portland Trail Blazers</title>
       <link>https://www.espn.com/nba/game/_/gameId/401909944/spurs-trail-blazers</link>
@@ -1075,15 +1084,6 @@
       <guid isPermaLink="false">nba-result-401909852</guid>
       <pubDate>Sat, 24 Oct 2026 06:32:49 GMT</pubDate>
       <description>Résultat final NBA : Portland Trail Blazers 128–120 Sacramento Kings. NBA.</description>
-      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
-    </item>
-
-    <item>
-      <title>Résultat final NBA — Atlanta Hawks 128–81 Charlotte Hornets</title>
-      <link>https://www.espn.com/nba/game/_/gameId/401909843/hawks-hornets</link>
-      <guid isPermaLink="false">nba-result-401909843</guid>
-      <pubDate>Sat, 24 Oct 2026 01:44:47 GMT</pubDate>
-      <description>Résultat final NBA : Atlanta Hawks 128–81 Charlotte Hornets. NBA.</description>
       <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
     </item>
   </channel>

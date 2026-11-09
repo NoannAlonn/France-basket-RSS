@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-11-08T11:36:38.078Z",
+  "lastBuildAt": "2026-11-09T00:59:27.014Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -2135,6 +2135,17 @@
       "startAt": "2026-11-08T03:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401909944/spurs-trail-blazers",
       "publishedAt": "2026-11-08T11:36:38.078Z"
+    },
+    "401909945": {
+      "id": "401909945",
+      "seasonType": "NBA",
+      "home": "Chicago Bulls",
+      "away": "Philadelphia 76ers",
+      "homeScore": "121",
+      "awayScore": "127",
+      "startAt": "2026-11-08T20:30:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909945/76ers-bulls",
+      "publishedAt": "2026-11-09T00:59:27.014Z"
     },
     "401914101": {
       "id": "401914101",
