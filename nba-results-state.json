@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-11-12T12:11:48.073Z",
+  "lastBuildAt": "2026-11-13T07:49:22.228Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -2476,6 +2476,50 @@
       "startAt": "2026-11-12T03:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401909975/thunder-trail-blazers",
       "publishedAt": "2026-11-12T12:11:48.073Z"
+    },
+    "401909976": {
+      "id": "401909976",
+      "seasonType": "NBA",
+      "home": "Philadelphia 76ers",
+      "away": "Toronto Raptors",
+      "homeScore": "123",
+      "awayScore": "112",
+      "startAt": "2026-11-13T00:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909976/raptors-76ers",
+      "publishedAt": "2026-11-13T07:49:22.228Z"
+    },
+    "401909977": {
+      "id": "401909977",
+      "seasonType": "NBA",
+      "home": "Washington Wizards",
+      "away": "Detroit Pistons",
+      "homeScore": "140",
+      "awayScore": "144",
+      "startAt": "2026-11-13T00:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909977/pistons-wizards",
+      "publishedAt": "2026-11-13T07:49:22.228Z"
+    },
+    "401909978": {
+      "id": "401909978",
+      "seasonType": "NBA",
+      "home": "Minnesota Timberwolves",
+      "away": "Dallas Mavericks",
+      "homeScore": "133",
+      "awayScore": "94",
+      "startAt": "2026-11-13T01:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909978/mavericks-timberwolves",
+      "publishedAt": "2026-11-13T07:49:22.228Z"
+    },
+    "401909979": {
+      "id": "401909979",
+      "seasonType": "NBA",
+      "home": "Phoenix Suns",
+      "away": "Charlotte Hornets",
+      "homeScore": "101",
+      "awayScore": "96",
+      "startAt": "2026-11-13T02:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909979/hornets-suns",
+      "publishedAt": "2026-11-13T07:49:22.228Z"
     },
     "401914101": {
       "id": "401914101",
