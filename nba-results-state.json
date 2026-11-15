@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-11-15T03:55:58.195Z",
+  "lastBuildAt": "2026-11-15T23:06:42.574Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -2674,6 +2674,17 @@
       "startAt": "2026-11-15T01:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401909984/bulls-timberwolves",
       "publishedAt": "2026-11-15T03:55:58.195Z"
+    },
+    "401909985": {
+      "id": "401909985",
+      "seasonType": "NBA",
+      "home": "Philadelphia 76ers",
+      "away": "Indiana Pacers",
+      "homeScore": "131",
+      "awayScore": "124",
+      "startAt": "2026-11-15T18:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909985/pacers-76ers",
+      "publishedAt": "2026-11-15T23:06:42.574Z"
     },
     "401914101": {
       "id": "401914101",

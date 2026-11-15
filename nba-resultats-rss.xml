@@ -5,8 +5,17 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml</link>
     <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>
     <language>fr</language>
-    <lastBuildDate>Sun, 15 Nov 2026 03:55:58 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 23:06:42 GMT</lastBuildDate>
     <generator>NBA RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final NBA — Indiana Pacers 124–131 Philadelphia 76ers</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401909985/pacers-76ers</link>
+      <guid isPermaLink="false">nba-result-401909985</guid>
+      <pubDate>Sun, 15 Nov 2026 23:06:42 GMT</pubDate>
+      <description>Résultat final NBA : Indiana Pacers 124–131 Philadelphia 76ers. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
     <item>
       <title>Résultat final NBA — Denver Nuggets 116–108 New Orleans Pelicans</title>
       <link>https://www.espn.com/nba/game/_/gameId/401909980/nuggets-pelicans</link>
@@ -1075,15 +1084,6 @@
       <guid isPermaLink="false">nba-result-401909894</guid>
       <pubDate>Fri, 30 Oct 2026 07:01:25 GMT</pubDate>
       <description>Résultat final NBA : Sacramento Kings 120–132 New Orleans Pelicans. NBA.</description>
-      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
-    </item>
-
-    <item>
-      <title>Résultat final NBA — Memphis Grizzlies 124–103 Portland Trail Blazers</title>
-      <link>https://www.espn.com/nba/game/_/gameId/401909895/grizzlies-trail-blazers</link>
-      <guid isPermaLink="false">nba-result-401909895</guid>
-      <pubDate>Fri, 30 Oct 2026 07:01:25 GMT</pubDate>
-      <description>Résultat final NBA : Memphis Grizzlies 124–103 Portland Trail Blazers. NBA.</description>
       <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
     </item>
   </channel>
