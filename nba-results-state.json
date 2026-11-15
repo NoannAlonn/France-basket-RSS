@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-11-14T08:28:14.056Z",
+  "lastBuildAt": "2026-11-15T03:55:58.195Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -2619,6 +2619,61 @@
       "startAt": "2026-11-13T02:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401909979/hornets-suns",
       "publishedAt": "2026-11-13T07:49:22.228Z"
+    },
+    "401909980": {
+      "id": "401909980",
+      "seasonType": "NBA",
+      "home": "New Orleans Pelicans",
+      "away": "Denver Nuggets",
+      "homeScore": "108",
+      "awayScore": "116",
+      "startAt": "2026-11-15T00:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909980/nuggets-pelicans",
+      "publishedAt": "2026-11-15T03:55:58.195Z"
+    },
+    "401909981": {
+      "id": "401909981",
+      "seasonType": "NBA",
+      "home": "Cleveland Cavaliers",
+      "away": "Dallas Mavericks",
+      "homeScore": "127",
+      "awayScore": "117",
+      "startAt": "2026-11-15T00:30:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909981/mavericks-cavaliers",
+      "publishedAt": "2026-11-15T03:55:58.195Z"
+    },
+    "401909982": {
+      "id": "401909982",
+      "seasonType": "NBA",
+      "home": "Miami Heat",
+      "away": "Detroit Pistons",
+      "homeScore": "137",
+      "awayScore": "117",
+      "startAt": "2026-11-15T01:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909982/pistons-heat",
+      "publishedAt": "2026-11-15T03:55:58.195Z"
+    },
+    "401909983": {
+      "id": "401909983",
+      "seasonType": "NBA",
+      "home": "Memphis Grizzlies",
+      "away": "Brooklyn Nets",
+      "homeScore": "129",
+      "awayScore": "110",
+      "startAt": "2026-11-15T01:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909983/nets-grizzlies",
+      "publishedAt": "2026-11-15T03:55:58.195Z"
+    },
+    "401909984": {
+      "id": "401909984",
+      "seasonType": "NBA",
+      "home": "Minnesota Timberwolves",
+      "away": "Chicago Bulls",
+      "homeScore": "106",
+      "awayScore": "117",
+      "startAt": "2026-11-15T01:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909984/bulls-timberwolves",
+      "publishedAt": "2026-11-15T03:55:58.195Z"
     },
     "401914101": {
       "id": "401914101",
