@@ -5,8 +5,26 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml</link>
     <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>
     <language>fr</language>
-    <lastBuildDate>Mon, 16 Nov 2026 02:45:06 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 10:22:08 GMT</lastBuildDate>
     <generator>NBA RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final NBA — Atlanta Hawks 113–106 Milwaukee Bucks</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401909992/hawks-bucks</link>
+      <guid isPermaLink="false">nba-result-401909992</guid>
+      <pubDate>Mon, 16 Nov 2026 10:22:08 GMT</pubDate>
+      <description>Résultat final NBA : Atlanta Hawks 113–106 Milwaukee Bucks. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — Oklahoma City Thunder 125–103 Sacramento Kings</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401909993/thunder-kings</link>
+      <guid isPermaLink="false">nba-result-401909993</guid>
+      <pubDate>Mon, 16 Nov 2026 10:22:08 GMT</pubDate>
+      <description>Résultat final NBA : Oklahoma City Thunder 125–103 Sacramento Kings. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
     <item>
       <title>Résultat final NBA — Los Angeles Lakers 131–123 Phoenix Suns</title>
       <link>https://www.espn.com/nba/game/_/gameId/401909986/lakers-suns</link>
@@ -1066,24 +1084,6 @@
       <guid isPermaLink="false">nba-result-401909285</guid>
       <pubDate>Sat, 31 Oct 2026 08:36:14 GMT</pubDate>
       <description>Résultat final NBA : Los Angeles Lakers 95–112 Golden State Warriors. NBA.</description>
-      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
-    </item>
-
-    <item>
-      <title>Résultat final NBA — Denver Nuggets 127–120 Phoenix Suns</title>
-      <link>https://www.espn.com/nba/game/_/gameId/401909286/nuggets-suns</link>
-      <guid isPermaLink="false">nba-result-401909286</guid>
-      <pubDate>Sat, 31 Oct 2026 08:36:14 GMT</pubDate>
-      <description>Résultat final NBA : Denver Nuggets 127–120 Phoenix Suns. NBA.</description>
-      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
-    </item>
-
-    <item>
-      <title>Résultat final NBA — Charlotte Hornets 79–95 Washington Wizards</title>
-      <link>https://www.espn.com/nba/game/_/gameId/401909277/hornets-wizards</link>
-      <guid isPermaLink="false">nba-result-401909277</guid>
-      <pubDate>Sat, 31 Oct 2026 02:17:45 GMT</pubDate>
-      <description>Résultat final NBA : Charlotte Hornets 79–95 Washington Wizards. NBA.</description>
       <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
     </item>
   </channel>
