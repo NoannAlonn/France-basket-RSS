@@ -5,8 +5,44 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml</link>
     <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>
     <language>fr</language>
-    <lastBuildDate>Thu, 19 Nov 2026 08:53:24 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 07:43:04 GMT</lastBuildDate>
     <generator>NBA RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final NBA — Golden State Warriors 98–126 Memphis Grizzlies</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401910019/warriors-grizzlies</link>
+      <guid isPermaLink="false">nba-result-401910019</guid>
+      <pubDate>Fri, 20 Nov 2026 07:43:04 GMT</pubDate>
+      <description>Résultat final NBA : Golden State Warriors 98–126 Memphis Grizzlies. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — Portland Trail Blazers 124–114 Milwaukee Bucks</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401910020/trail-blazers-bucks</link>
+      <guid isPermaLink="false">nba-result-401910020</guid>
+      <pubDate>Fri, 20 Nov 2026 07:43:04 GMT</pubDate>
+      <description>Résultat final NBA : Portland Trail Blazers 124–114 Milwaukee Bucks. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — New York Knicks 102–99 Minnesota Timberwolves</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401910021/knicks-timberwolves</link>
+      <guid isPermaLink="false">nba-result-401910021</guid>
+      <pubDate>Fri, 20 Nov 2026 07:43:04 GMT</pubDate>
+      <description>Résultat final NBA : New York Knicks 102–99 Minnesota Timberwolves. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
+    <item>
+      <title>Résultat final NBA — LA Clippers 112–124 San Antonio Spurs</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401910022/clippers-spurs</link>
+      <guid isPermaLink="false">nba-result-401910022</guid>
+      <pubDate>Fri, 20 Nov 2026 07:43:04 GMT</pubDate>
+      <description>Résultat final NBA : LA Clippers 112–124 San Antonio Spurs. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
     <item>
       <title>Résultat final NBA — Memphis Grizzlies 124–121 Cleveland Cavaliers</title>
       <link>https://www.espn.com/nba/game/_/gameId/401910007/grizzlies-cavaliers</link>
@@ -1048,42 +1084,6 @@
       <guid isPermaLink="false">nba-result-401909907</guid>
       <pubDate>Tue, 03 Nov 2026 08:50:04 GMT</pubDate>
       <description>Résultat final NBA : Oklahoma City Thunder 117–112 Cleveland Cavaliers. NBA.</description>
-      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
-    </item>
-
-    <item>
-      <title>Résultat final NBA — Detroit Pistons 124–91 Charlotte Hornets</title>
-      <link>https://www.espn.com/nba/game/_/gameId/401909908/pistons-hornets</link>
-      <guid isPermaLink="false">nba-result-401909908</guid>
-      <pubDate>Tue, 03 Nov 2026 08:50:04 GMT</pubDate>
-      <description>Résultat final NBA : Detroit Pistons 124–91 Charlotte Hornets. NBA.</description>
-      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
-    </item>
-
-    <item>
-      <title>Résultat final NBA — Atlanta Hawks 108–104 Indiana Pacers</title>
-      <link>https://www.espn.com/nba/game/_/gameId/401909909/hawks-pacers</link>
-      <guid isPermaLink="false">nba-result-401909909</guid>
-      <pubDate>Tue, 03 Nov 2026 08:50:04 GMT</pubDate>
-      <description>Résultat final NBA : Atlanta Hawks 108–104 Indiana Pacers. NBA.</description>
-      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
-    </item>
-
-    <item>
-      <title>Résultat final NBA — Brooklyn Nets 90–103 New York Knicks</title>
-      <link>https://www.espn.com/nba/game/_/gameId/401909910/nets-knicks</link>
-      <guid isPermaLink="false">nba-result-401909910</guid>
-      <pubDate>Tue, 03 Nov 2026 08:50:04 GMT</pubDate>
-      <description>Résultat final NBA : Brooklyn Nets 90–103 New York Knicks. NBA.</description>
-      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
-    </item>
-
-    <item>
-      <title>Résultat final NBA — Washington Wizards 103–94 Orlando Magic</title>
-      <link>https://www.espn.com/nba/game/_/gameId/401909911/wizards-magic</link>
-      <guid isPermaLink="false">nba-result-401909911</guid>
-      <pubDate>Tue, 03 Nov 2026 08:50:04 GMT</pubDate>
-      <description>Résultat final NBA : Washington Wizards 103–94 Orlando Magic. NBA.</description>
       <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
     </item>
   </channel>
