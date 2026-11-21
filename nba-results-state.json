@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-11-21T03:38:25.876Z",
+  "lastBuildAt": "2026-11-21T11:49:06.355Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -1079,6 +1079,39 @@
       "startAt": "2026-11-21T01:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401909310/pelicans-thunder",
       "publishedAt": "2026-11-21T03:38:25.876Z"
+    },
+    "401909311": {
+      "id": "401909311",
+      "seasonType": "NBA",
+      "home": "Utah Jazz",
+      "away": "Phoenix Suns",
+      "homeScore": "101",
+      "awayScore": "111",
+      "startAt": "2026-11-21T02:30:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909311/suns-jazz",
+      "publishedAt": "2026-11-21T11:49:06.355Z"
+    },
+    "401909312": {
+      "id": "401909312",
+      "seasonType": "NBA",
+      "home": "Denver Nuggets",
+      "away": "Houston Rockets",
+      "homeScore": "133",
+      "awayScore": "124",
+      "startAt": "2026-11-21T03:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909312/rockets-nuggets",
+      "publishedAt": "2026-11-21T11:49:06.355Z"
+    },
+    "401909313": {
+      "id": "401909313",
+      "seasonType": "NBA",
+      "home": "Los Angeles Lakers",
+      "away": "Sacramento Kings",
+      "homeScore": "106",
+      "awayScore": "104",
+      "startAt": "2026-11-21T03:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909313/kings-lakers",
+      "publishedAt": "2026-11-21T11:49:06.355Z"
     },
     "401909834": {
       "id": "401909834",
