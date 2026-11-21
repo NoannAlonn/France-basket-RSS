@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-11-20T07:43:04.250Z",
+  "lastBuildAt": "2026-11-21T03:38:25.876Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -1013,6 +1013,72 @@
       "startAt": "2026-11-14T03:30:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401909304/thunder-clippers",
       "publishedAt": "2026-11-14T08:28:14.056Z"
+    },
+    "401909305": {
+      "id": "401909305",
+      "seasonType": "NBA",
+      "home": "Atlanta Hawks",
+      "away": "Charlotte Hornets",
+      "homeScore": "111",
+      "awayScore": "97",
+      "startAt": "2026-11-21T00:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909305/hornets-hawks",
+      "publishedAt": "2026-11-21T03:38:25.876Z"
+    },
+    "401909306": {
+      "id": "401909306",
+      "seasonType": "NBA",
+      "home": "Brooklyn Nets",
+      "away": "Orlando Magic",
+      "homeScore": "111",
+      "awayScore": "113",
+      "startAt": "2026-11-21T00:30:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909306/magic-nets",
+      "publishedAt": "2026-11-21T03:38:25.876Z"
+    },
+    "401909307": {
+      "id": "401909307",
+      "seasonType": "NBA",
+      "home": "Cleveland Cavaliers",
+      "away": "Indiana Pacers",
+      "homeScore": "128",
+      "awayScore": "119",
+      "startAt": "2026-11-21T00:30:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909307/pacers-cavaliers",
+      "publishedAt": "2026-11-21T03:38:25.876Z"
+    },
+    "401909308": {
+      "id": "401909308",
+      "seasonType": "NBA",
+      "home": "Detroit Pistons",
+      "away": "Toronto Raptors",
+      "homeScore": "102",
+      "awayScore": "105",
+      "startAt": "2026-11-21T00:30:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909308/raptors-pistons",
+      "publishedAt": "2026-11-21T03:38:25.876Z"
+    },
+    "401909309": {
+      "id": "401909309",
+      "seasonType": "NBA",
+      "home": "Chicago Bulls",
+      "away": "Washington Wizards",
+      "homeScore": "94",
+      "awayScore": "98",
+      "startAt": "2026-11-21T01:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909309/wizards-bulls",
+      "publishedAt": "2026-11-21T03:38:25.876Z"
+    },
+    "401909310": {
+      "id": "401909310",
+      "seasonType": "NBA",
+      "home": "Oklahoma City Thunder",
+      "away": "New Orleans Pelicans",
+      "homeScore": "126",
+      "awayScore": "120",
+      "startAt": "2026-11-21T01:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909310/pelicans-thunder",
+      "publishedAt": "2026-11-21T03:38:25.876Z"
     },
     "401909834": {
       "id": "401909834",
