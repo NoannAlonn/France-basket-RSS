@@ -5,8 +5,17 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml</link>
     <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>
     <language>fr</language>
-    <lastBuildDate>Sat, 21 Nov 2026 11:49:06 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 23:33:16 GMT</lastBuildDate>
     <generator>NBA RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final NBA — Milwaukee Bucks 129–132 Philadelphia 76ers</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401910023/bucks-76ers</link>
+      <guid isPermaLink="false">nba-result-401910023</guid>
+      <pubDate>Sat, 21 Nov 2026 23:33:16 GMT</pubDate>
+      <description>Résultat final NBA : Milwaukee Bucks 129–132 Philadelphia 76ers. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
     <item>
       <title>Résultat final NBA — Phoenix Suns 111–101 Utah Jazz</title>
       <link>https://www.espn.com/nba/game/_/gameId/401909311/suns-jazz</link>
@@ -1075,15 +1084,6 @@
       <guid isPermaLink="false">nba-result-401909929</guid>
       <pubDate>Thu, 05 Nov 2026 10:43:48 GMT</pubDate>
       <description>Résultat final NBA : Cleveland Cavaliers 116–124 Oklahoma City Thunder. NBA.</description>
-      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
-    </item>
-
-    <item>
-      <title>Résultat final NBA — Minnesota Timberwolves 117–107 Houston Rockets</title>
-      <link>https://www.espn.com/nba/game/_/gameId/401909930/timberwolves-rockets</link>
-      <guid isPermaLink="false">nba-result-401909930</guid>
-      <pubDate>Thu, 05 Nov 2026 10:43:48 GMT</pubDate>
-      <description>Résultat final NBA : Minnesota Timberwolves 117–107 Houston Rockets. NBA.</description>
       <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
     </item>
   </channel>
