@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-11-22T03:27:52.597Z",
+  "lastBuildAt": "2026-11-22T11:55:26.621Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -3246,6 +3246,17 @@
       "startAt": "2026-11-22T01:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401910027/pelicans-spurs",
       "publishedAt": "2026-11-22T03:27:52.597Z"
+    },
+    "401910028": {
+      "id": "401910028",
+      "seasonType": "NBA",
+      "home": "Sacramento Kings",
+      "away": "Boston Celtics",
+      "homeScore": "97",
+      "awayScore": "96",
+      "startAt": "2026-11-22T03:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401910028/celtics-kings",
+      "publishedAt": "2026-11-22T11:55:26.621Z"
     },
     "401914101": {
       "id": "401914101",

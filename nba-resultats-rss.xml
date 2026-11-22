@@ -5,8 +5,17 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml</link>
     <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>
     <language>fr</language>
-    <lastBuildDate>Sun, 22 Nov 2026 03:27:52 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 11:55:26 GMT</lastBuildDate>
     <generator>NBA RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final NBA — Boston Celtics 96–97 Sacramento Kings</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401910028/celtics-kings</link>
+      <guid isPermaLink="false">nba-result-401910028</guid>
+      <pubDate>Sun, 22 Nov 2026 11:55:26 GMT</pubDate>
+      <description>Résultat final NBA : Boston Celtics 96–97 Sacramento Kings. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
     <item>
       <title>Résultat final NBA — Portland Trail Blazers 96–97 New York Knicks</title>
       <link>https://www.espn.com/nba/game/_/gameId/401910024/trail-blazers-knicks</link>
@@ -1075,15 +1084,6 @@
       <guid isPermaLink="false">nba-result-401909937</guid>
       <pubDate>Fri, 06 Nov 2026 11:35:57 GMT</pubDate>
       <description>Résultat final NBA : Miami Heat 100–120 Golden State Warriors. NBA.</description>
-      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
-    </item>
-
-    <item>
-      <title>Résultat final NBA — Charlotte Hornets 104–114 Brooklyn Nets</title>
-      <link>https://www.espn.com/nba/game/_/gameId/401909925/hornets-nets</link>
-      <guid isPermaLink="false">nba-result-401909925</guid>
-      <pubDate>Thu, 05 Nov 2026 10:43:48 GMT</pubDate>
-      <description>Résultat final NBA : Charlotte Hornets 104–114 Brooklyn Nets. NBA.</description>
       <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
     </item>
   </channel>
