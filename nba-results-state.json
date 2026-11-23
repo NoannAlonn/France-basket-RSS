@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-11-22T11:55:26.621Z",
+  "lastBuildAt": "2026-11-23T00:27:05.254Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -3257,6 +3257,17 @@
       "startAt": "2026-11-22T03:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401910028/celtics-kings",
       "publishedAt": "2026-11-22T11:55:26.621Z"
+    },
+    "401910029": {
+      "id": "401910029",
+      "seasonType": "NBA",
+      "home": "Atlanta Hawks",
+      "away": "Detroit Pistons",
+      "homeScore": "107",
+      "awayScore": "97",
+      "startAt": "2026-11-22T20:30:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401910029/pistons-hawks",
+      "publishedAt": "2026-11-23T00:27:05.254Z"
     },
     "401914101": {
       "id": "401914101",

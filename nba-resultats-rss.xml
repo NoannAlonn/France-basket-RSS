@@ -5,8 +5,17 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml</link>
     <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>
     <language>fr</language>
-    <lastBuildDate>Sun, 22 Nov 2026 11:55:26 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 00:27:05 GMT</lastBuildDate>
     <generator>NBA RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final NBA — Detroit Pistons 97–107 Atlanta Hawks</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401910029/pistons-hawks</link>
+      <guid isPermaLink="false">nba-result-401910029</guid>
+      <pubDate>Mon, 23 Nov 2026 00:27:05 GMT</pubDate>
+      <description>Résultat final NBA : Detroit Pistons 97–107 Atlanta Hawks. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
     <item>
       <title>Résultat final NBA — Boston Celtics 96–97 Sacramento Kings</title>
       <link>https://www.espn.com/nba/game/_/gameId/401910028/celtics-kings</link>
@@ -1075,15 +1084,6 @@
       <guid isPermaLink="false">nba-result-401909936</guid>
       <pubDate>Fri, 06 Nov 2026 11:35:57 GMT</pubDate>
       <description>Résultat final NBA : Orlando Magic 104–117 Phoenix Suns. NBA.</description>
-      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
-    </item>
-
-    <item>
-      <title>Résultat final NBA — Miami Heat 100–120 Golden State Warriors</title>
-      <link>https://www.espn.com/nba/game/_/gameId/401909937/heat-warriors</link>
-      <guid isPermaLink="false">nba-result-401909937</guid>
-      <pubDate>Fri, 06 Nov 2026 11:35:57 GMT</pubDate>
-      <description>Résultat final NBA : Miami Heat 100–120 Golden State Warriors. NBA.</description>
       <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
     </item>
   </channel>
