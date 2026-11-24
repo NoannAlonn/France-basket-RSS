@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-11-24T04:52:22.439Z",
+  "lastBuildAt": "2026-11-24T15:29:31.471Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -3422,6 +3422,28 @@
       "startAt": "2026-11-24T01:30:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401910043/clippers-rockets",
       "publishedAt": "2026-11-24T04:52:22.439Z"
+    },
+    "401910044": {
+      "id": "401910044",
+      "seasonType": "NBA",
+      "home": "Los Angeles Lakers",
+      "away": "Utah Jazz",
+      "homeScore": "109",
+      "awayScore": "94",
+      "startAt": "2026-11-24T03:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401910044/jazz-lakers",
+      "publishedAt": "2026-11-24T15:29:31.471Z"
+    },
+    "401910045": {
+      "id": "401910045",
+      "seasonType": "NBA",
+      "home": "Sacramento Kings",
+      "away": "San Antonio Spurs",
+      "homeScore": "107",
+      "awayScore": "123",
+      "startAt": "2026-11-24T03:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401910045/spurs-kings",
+      "publishedAt": "2026-11-24T15:29:31.471Z"
     },
     "401914101": {
       "id": "401914101",
