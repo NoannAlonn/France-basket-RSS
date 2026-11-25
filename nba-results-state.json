@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-11-24T15:29:31.471Z",
+  "lastBuildAt": "2026-11-25T08:21:29.934Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -1112,6 +1112,39 @@
       "startAt": "2026-11-21T03:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401909313/kings-lakers",
       "publishedAt": "2026-11-21T11:49:06.355Z"
+    },
+    "401909314": {
+      "id": "401909314",
+      "seasonType": "NBA",
+      "home": "Orlando Magic",
+      "away": "Detroit Pistons",
+      "homeScore": "86",
+      "awayScore": "104",
+      "startAt": "2026-11-25T00:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909314/pistons-magic",
+      "publishedAt": "2026-11-25T08:21:29.934Z"
+    },
+    "401909315": {
+      "id": "401909315",
+      "seasonType": "NBA",
+      "home": "Washington Wizards",
+      "away": "Boston Celtics",
+      "homeScore": "116",
+      "awayScore": "131",
+      "startAt": "2026-11-25T01:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909315/celtics-wizards",
+      "publishedAt": "2026-11-25T08:21:29.934Z"
+    },
+    "401909316": {
+      "id": "401909316",
+      "seasonType": "NBA",
+      "home": "Denver Nuggets",
+      "away": "Dallas Mavericks",
+      "homeScore": "101",
+      "awayScore": "120",
+      "startAt": "2026-11-25T03:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909316/mavericks-nuggets",
+      "publishedAt": "2026-11-25T08:21:29.934Z"
     },
     "401909834": {
       "id": "401909834",
