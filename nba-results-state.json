@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-11-25T08:21:29.934Z",
+  "lastBuildAt": "2026-11-26T01:57:38.816Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -1145,6 +1145,17 @@
       "startAt": "2026-11-25T03:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401909316/mavericks-nuggets",
       "publishedAt": "2026-11-25T08:21:29.934Z"
+    },
+    "401909317": {
+      "id": "401909317",
+      "seasonType": "NBA",
+      "home": "Philadelphia 76ers",
+      "away": "Miami Heat",
+      "homeScore": "111",
+      "awayScore": "104",
+      "startAt": "2026-11-25T22:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909317/heat-76ers",
+      "publishedAt": "2026-11-26T01:57:38.816Z"
     },
     "401909834": {
       "id": "401909834",
