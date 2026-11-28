@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastBuildAt": "2026-11-26T10:44:38.379Z",
+  "lastBuildAt": "2026-11-28T02:50:16.389Z",
   "results": {
     "401898388": {
       "id": "401898388",
@@ -1244,6 +1244,17 @@
       "startAt": "2026-11-26T03:00:00.000Z",
       "link": "https://www.espn.com/nba/game/_/gameId/401909325/spurs-trail-blazers",
       "publishedAt": "2026-11-26T10:44:38.379Z"
+    },
+    "401909326": {
+      "id": "401909326",
+      "seasonType": "NBA",
+      "home": "New York Knicks",
+      "away": "Miami Heat",
+      "homeScore": "105",
+      "awayScore": "108",
+      "startAt": "2026-11-28T00:00:00.000Z",
+      "link": "https://www.espn.com/nba/game/_/gameId/401909326/heat-knicks",
+      "publishedAt": "2026-11-28T02:50:16.389Z"
     },
     "401909834": {
       "id": "401909834",

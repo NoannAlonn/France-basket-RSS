@@ -5,8 +5,17 @@
     <link>https://raw.githubusercontent.com/NoannAlonn/France-basket-RSS/main/nba-resultats-rss.xml</link>
     <description>Résultats finaux de tous les matchs NBA des conférences Est et Ouest, hors pré-saison.</description>
     <language>fr</language>
-    <lastBuildDate>Thu, 26 Nov 2026 10:44:38 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 02:50:16 GMT</lastBuildDate>
     <generator>NBA RSS sur GitHub</generator>
+    <item>
+      <title>Résultat final NBA — Miami Heat 108–105 New York Knicks</title>
+      <link>https://www.espn.com/nba/game/_/gameId/401909326/heat-knicks</link>
+      <guid isPermaLink="false">nba-result-401909326</guid>
+      <pubDate>Sat, 28 Nov 2026 02:50:16 GMT</pubDate>
+      <description>Résultat final NBA : Miami Heat 108–105 New York Knicks. NBA.</description>
+      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
+    </item>
+
     <item>
       <title>Résultat final NBA — Chicago Bulls 107–105 Charlotte Hornets</title>
       <link>https://www.espn.com/nba/game/_/gameId/401909318/bulls-hornets</link>
@@ -1075,15 +1084,6 @@
       <guid isPermaLink="false">nba-result-401909954</guid>
       <pubDate>Tue, 10 Nov 2026 08:50:29 GMT</pubDate>
       <description>Résultat final NBA : Washington Wizards 111–122 Detroit Pistons. NBA.</description>
-      <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
-    </item>
-
-    <item>
-      <title>Résultat final NBA — Memphis Grizzlies 118–102 Toronto Raptors</title>
-      <link>https://www.espn.com/nba/game/_/gameId/401909955/grizzlies-raptors</link>
-      <guid isPermaLink="false">nba-result-401909955</guid>
-      <pubDate>Tue, 10 Nov 2026 08:50:29 GMT</pubDate>
-      <description>Résultat final NBA : Memphis Grizzlies 118–102 Toronto Raptors. NBA.</description>
       <source url="https://www.espn.com/nba/scoreboard">ESPN NBA</source>
     </item>
   </channel>
